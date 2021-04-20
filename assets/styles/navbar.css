@@ -1,0 +1,56 @@
+nav#navbar {
+  position: fixed;
+  height: 59px;
+  left: 0px;
+  right: 0;
+  top: 0px;
+  background: #FFFFFF;
+  border: 0.2px solid #7B7B7B;
+  box-sizing: border-box;
+}
+nav#navbar .nav-container {
+  position: absolute;
+  height: 24px;
+  left: 17px;
+  right: 17px;
+  top: 17px;
+}
+nav#navbar .nav-container .nav-user {
+  position: absolute;
+  left: 4.53%;
+  right: 89.07%;
+  top: 0.95%;
+  bottom: 97.7%;
+}
+nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn, nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::before, nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::after {
+  content: "";
+  height: 3px;
+  width: 25px;
+  border-radius: 20px;
+  position: absolute;
+  background: #181725;
+}
+nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn {
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::before {
+  bottom: 8px;
+}
+nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::after {
+  top: 8px;
+}
+nav#navbar .nav-logo {
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  text-align: center;
+}
+nav#navbar .nav-logo img, nav#navbar .nav-logo .nav-text {
+  display: inline-block;
+  vertical-align: middle;
+}/*# sourceMappingURL=navbar.css.map */

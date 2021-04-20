@@ -1,0 +1,8 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  width: 400px;
+  border-right: 1px solid black;
+}
