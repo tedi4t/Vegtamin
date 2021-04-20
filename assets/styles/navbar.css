@@ -4,8 +4,9 @@ nav#navbar {
   left: 0px;
   right: 0;
   top: 0px;
+  z-index: 1000;
   background: #FFFFFF;
-  border: 1px solid #7B7B7B;
+  border-bottom: 1px solid #7B7B7B;
   box-sizing: border-box;
 }
 nav#navbar .nav-container {
