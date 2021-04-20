@@ -5,7 +5,7 @@ nav#navbar {
   right: 0;
   top: 0px;
   background: #FFFFFF;
-  border: 0.2px solid #7B7B7B;
+  border: 1px solid #7B7B7B;
   box-sizing: border-box;
 }
 nav#navbar .nav-container {
