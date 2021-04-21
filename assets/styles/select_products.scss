@@ -105,6 +105,7 @@ section#goods {
       border: 1px solid $good-border;
       border-radius: 10px;
       padding: 15px 10px;
+      position: relative;
 
       .good-heading {
         display: flex;
@@ -258,6 +259,53 @@ section#goods {
           max-width: 50%;
         }
       }
+
+      .good-overlay-wrapper {
+        padding: 10px 0 17px 0;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 -10px;
+        background: #fff;
+        transform: translateY(-50%);
+
+        .good-overlay {
+          padding: 20px 17px;
+          background: $green;
+          border-radius: 16px;
+          display: grid;
+          grid-template-columns: 1fr 9fr 23fr;
+          grid-gap: 12px;
+          color: #fff;
+          
+          .left-tick {
+            flex-basis: 10%;
+            max-width: 10%;
+            display: grid;
+            align-items: center;
+            text-align: right;
+          }
+
+          .good-name {
+            text-align: center;
+            display: grid;
+            align-items: center;
+            background: #568E2E;
+            border-radius: 4px;
+            padding: 3px 12px;
+            font-size: 10px;
+            line-height: 24px;
+          }
+
+          .good-desc {
+            display: grid;
+            align-items: center;
+            text-align: center;
+          }
+        }
+      }
+
     }
 
     .good.active {
