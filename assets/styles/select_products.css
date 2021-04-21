@@ -134,7 +134,7 @@ section#goods .good-items .good .good-heading .good-photo img {
   max-width: 150px;
 }
 section#goods .good-items .good .good-buy {
-  width: 70%;
+  width: 68%;
   display: flex;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-wrapper {
@@ -226,12 +226,16 @@ section#goods .good-items .good.active .good-tick-active {
   border-radius: 30px;
   padding: 2px 3px 0 3px;
 }
-section#goods .good-overlay-wrapper {
-  padding: 10px 0 17px 0;
-  margin: 0 -10px;
+
+section#good-overlay-wrapper {
+  padding: 10px 4px 17px 4px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: #fff;
 }
-section#goods .good-overlay-wrapper .good-overlay {
+section#good-overlay-wrapper .good-overlay {
   padding: 20px 17px;
   background: #71B83E;
   border-radius: 16px;
@@ -240,14 +244,14 @@ section#goods .good-overlay-wrapper .good-overlay {
   grid-gap: 12px;
   color: #fff;
 }
-section#goods .good-overlay-wrapper .good-overlay .left-tick {
+section#good-overlay-wrapper .good-overlay .left-tick {
   flex-basis: 10%;
   max-width: 10%;
   display: grid;
   align-items: center;
   text-align: right;
 }
-section#goods .good-overlay-wrapper .good-overlay .good-name {
+section#good-overlay-wrapper .good-overlay .good-name {
   text-align: center;
   display: grid;
   align-items: center;
@@ -257,7 +261,7 @@ section#goods .good-overlay-wrapper .good-overlay .good-name {
   font-size: 10px;
   line-height: 24px;
 }
-section#goods .good-overlay-wrapper .good-overlay .good-desc {
+section#good-overlay-wrapper .good-overlay .good-desc {
   display: grid;
   align-items: center;
   text-align: center;
