@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("../fonts/yekan/Yekan.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/yekan/Yekan.eot?#iefix") format("embedded-opentype"), url("../fonts/yekan/Yekan.woff2") format("woff2"), url("../fonts/yekan/Yekan.woff") format("woff"), url("../fonts/yekan/Yekan.otf") format("opentype"), url("../fonts/yekan/Yekan.ttf") format("truetype"), url("../fonts/yekan/Yekan.svg#Yekan") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Yekan" sans-serif;
 }/*# sourceMappingURL=index.css.map */

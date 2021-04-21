@@ -214,47 +214,6 @@ section#goods .good-items .good .good-buy .good-buy-info.fb-50 {
   flex-basis: 50%;
   max-width: 50%;
 }
-section#goods .good-items .good .good-overlay-wrapper {
-  padding: 10px 0 17px 0;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  margin: 0 -10px;
-  background: #fff;
-  transform: translateY(-50%);
-}
-section#goods .good-items .good .good-overlay-wrapper .good-overlay {
-  padding: 20px 17px;
-  background: #71B83E;
-  border-radius: 16px;
-  display: grid;
-  grid-template-columns: 1fr 9fr 23fr;
-  grid-gap: 12px;
-  color: #fff;
-}
-section#goods .good-items .good .good-overlay-wrapper .good-overlay .left-tick {
-  flex-basis: 10%;
-  max-width: 10%;
-  display: grid;
-  align-items: center;
-  text-align: right;
-}
-section#goods .good-items .good .good-overlay-wrapper .good-overlay .good-name {
-  text-align: center;
-  display: grid;
-  align-items: center;
-  background: #568E2E;
-  border-radius: 4px;
-  padding: 3px 12px;
-  font-size: 10px;
-  line-height: 24px;
-}
-section#goods .good-items .good .good-overlay-wrapper .good-overlay .good-desc {
-  display: grid;
-  align-items: center;
-  text-align: center;
-}
 section#goods .good-items .good.active {
   border-color: #71B83E;
 }
@@ -266,4 +225,40 @@ section#goods .good-items .good.active .good-tick-active {
   transform: translateY(-50%) translateX(50%);
   border-radius: 30px;
   padding: 2px 3px 0 3px;
+}
+section#goods .good-overlay-wrapper {
+  padding: 10px 0 17px 0;
+  margin: 0 -10px;
+  background: #fff;
+}
+section#goods .good-overlay-wrapper .good-overlay {
+  padding: 20px 17px;
+  background: #71B83E;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 1fr 9fr 23fr;
+  grid-gap: 12px;
+  color: #fff;
+}
+section#goods .good-overlay-wrapper .good-overlay .left-tick {
+  flex-basis: 10%;
+  max-width: 10%;
+  display: grid;
+  align-items: center;
+  text-align: right;
+}
+section#goods .good-overlay-wrapper .good-overlay .good-name {
+  text-align: center;
+  display: grid;
+  align-items: center;
+  background: #568E2E;
+  border-radius: 4px;
+  padding: 3px 12px;
+  font-size: 10px;
+  line-height: 24px;
+}
+section#goods .good-overlay-wrapper .good-overlay .good-desc {
+  display: grid;
+  align-items: center;
+  text-align: center;
 }/*# sourceMappingURL=select_products.css.map */

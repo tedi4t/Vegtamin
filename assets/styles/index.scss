@@ -1,7 +1,9 @@
+@import './fonts.scss';
+
 *, *::before, *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-
+  font-family: 'Yekan' sans-serif;
 }
