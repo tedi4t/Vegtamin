@@ -17,4 +17,8 @@ body {
 
 .text-green {
   color: #71B83E;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */

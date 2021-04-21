@@ -9,7 +9,7 @@ $border-color: #7B7B7B;
   bottom: 0;
   background: #000;
   opacity: 0;
-  // z-index: 20;
+  z-index: -1;
   transition-duration: .6s;
 }
 
