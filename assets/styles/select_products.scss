@@ -310,6 +310,16 @@ section#goods {
 
     .good.active {
       border-color: $green;
+
+      .good-tick-active {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: $green;
+        transform: translateY(-50%) translateX(50%);
+        border-radius: 30px;
+        padding: 2px 3px 0 3px;
+      }
     }
   }
 }

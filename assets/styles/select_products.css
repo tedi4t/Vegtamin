@@ -257,4 +257,13 @@ section#goods .good-items .good .good-overlay-wrapper .good-overlay .good-desc {
 }
 section#goods .good-items .good.active {
   border-color: #71B83E;
+}
+section#goods .good-items .good.active .good-tick-active {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #71B83E;
+  transform: translateY(-50%) translateX(50%);
+  border-radius: 30px;
+  padding: 2px 3px 0 3px;
 }/*# sourceMappingURL=select_products.css.map */
