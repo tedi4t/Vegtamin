@@ -1,9 +1,15 @@
 @import './fonts.scss';
 
+$green: #71B83E;
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Yekan' sans-serif;
+}
+
+.text-green {
+  color: $green;
 }

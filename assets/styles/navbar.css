@@ -1,29 +1,46 @@
-nav#navbar {
+.dark-bg-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0;
+  transition-duration: 0.6s;
+}
+
+#navbar {
   position: fixed;
   height: 59px;
   left: 0px;
   right: 0;
   top: 0px;
-  z-index: 1000;
+  z-index: 10;
   background: #FFFFFF;
   border-bottom: 1px solid #7B7B7B;
   box-sizing: border-box;
 }
-nav#navbar .nav-container {
+#navbar .nav-container {
   position: absolute;
   height: 24px;
   left: 17px;
   right: 17px;
   top: 17px;
 }
-nav#navbar .nav-container .nav-user {
+#navbar .nav-container .nav-user {
   position: absolute;
   left: 4.53%;
   right: 89.07%;
   top: 0.95%;
   bottom: 97.7%;
 }
-nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn, nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::before, nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::after {
+#navbar .nav-container .navbar-collapse {
+  position: absolute;
+  right: 5%;
+  width: 25px;
+  height: 100%;
+}
+#navbar .nav-container .navbar-collapse .navbar-collapse-btn, #navbar .nav-container .navbar-collapse .navbar-collapse-btn::before, #navbar .nav-container .navbar-collapse .navbar-collapse-btn::after {
   content: "";
   height: 3px;
   width: 25px;
@@ -31,18 +48,26 @@ nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn, nav#navbar .nav
   position: absolute;
   background: #181725;
 }
-nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn {
+#navbar .nav-container .navbar-collapse .navbar-collapse-btn {
   right: 5%;
   top: 50%;
   transform: translateY(-50%);
 }
-nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::before {
+#navbar .nav-container .navbar-collapse .navbar-collapse-btn::before {
   bottom: 8px;
 }
-nav#navbar .nav-container .navbar-collapse .navbar-collapse-btn::after {
+#navbar .nav-container .navbar-collapse .navbar-collapse-btn::after {
   top: 8px;
 }
-nav#navbar .nav-logo {
+#navbar .nav-text {
+  font-weight: 800;
+}
+#navbar .nav-text-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#navbar .nav-logo {
   position: absolute;
   top: 3px;
   bottom: 0;
@@ -51,7 +76,70 @@ nav#navbar .nav-logo {
   height: 100%;
   text-align: center;
 }
-nav#navbar .nav-logo img, nav#navbar .nav-logo .nav-text {
+#navbar .nav-logo img, #navbar .nav-logo .nav-text {
   display: inline-block;
   vertical-align: middle;
+}
+.navbar-items-block {
+  position: fixed;
+  left: 15%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 200;
+  border-radius: 20px 0 0 20px;
+  padding: 20px 20px 20px 27px;
+  text-align: right;
+  transform: translateX(100%);
+}
+.navbar-items-block .nav-items {
+  list-style: none;
+  padding: 0;
+}
+.navbar-items-block .nav-items .nav-item {
+  border-bottom: 1px solid #E2E2E2;
+  padding: 26px 15px 13px 0;
+}
+.navbar-items-block .nav-items .nav-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 140%;
+}
+.navbar-items-block .nav-items .nav-item:last-child {
+  border-bottom-width: 0;
+}
+.navbar-items-block .navbar-items-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.navbar-items-block .navbar-items-footer .icons {
+  text-align: left;
+  position: relative;
+  width: 100%;
+}
+.navbar-items-block .navbar-items-footer .icons a {
+  margin-right: 39px;
+}
+.navbar-items-block .navbar-items-footer .icons .logo {
+  position: absolute;
+  right: 0;
+  transform: translateX(-110%);
+  bottom: 0;
+}
+.navbar-items-block .navbar-items-footer .phone {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.navbar-items-block .navbar-items-footer .phone .phone-number {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 140%;
+  margin-right: 6px;
+}
+.navbar-items-block .navbar-items-footer .phone img {
+  vertical-align: middle;
+  display: inline-block;
 }/*# sourceMappingURL=navbar.css.map */

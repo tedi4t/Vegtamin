@@ -1,13 +1,25 @@
 $collapse-btn-bg: #181725;
 $border-color: #7B7B7B;
 
-nav#navbar {
+.dark-bg-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0;
+  // z-index: 20;
+  transition-duration: .6s;
+}
+
+#navbar {
   position: fixed;
   height: 59px;
   left: 0px;
   right: 0;
   top: 0px;
-  z-index: 1000;
+  z-index: 10;
 
   background: #FFFFFF;
   border-bottom: 1px solid $border-color;
@@ -29,7 +41,10 @@ nav#navbar {
     }
 
     .navbar-collapse {
-
+      position: absolute;
+      right: 5%;
+      width: 25px;
+      height: 100%;
 
       .navbar-collapse-btn, .navbar-collapse-btn::before, .navbar-collapse-btn::after {
         content: "";
@@ -56,6 +71,17 @@ nav#navbar {
     }
   }
 
+
+  .nav-text {
+    font-weight: 800;
+  }
+
+  .nav-text-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   .nav-logo {
     position: absolute;
     top: 3px;
@@ -72,6 +98,85 @@ nav#navbar {
 
     img {
 
+    }
+  }
+}
+
+.navbar-items-block {
+  position: fixed;
+  left: 15%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 200;
+  border-radius: 20px 0 0 20px;
+  padding: 20px 20px 20px 27px;
+  text-align: right;
+  transform: translateX(100%);
+
+  .close-button {
+
+  }
+
+  .nav-items {
+    list-style: none;
+    padding: 0;
+
+    .nav-item {
+      border-bottom: 1px solid #E2E2E2;
+      padding: 26px 15px 13px 0;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        line-height: 140%;
+      }
+    }
+
+    .nav-item:last-child {
+      border-bottom-width: 0;
+    }
+  }
+
+  .navbar-items-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .icons {
+      text-align: left;
+      position: relative;
+      width: 100%;
+
+      a {
+        margin-right: 39px;
+      }
+
+      .logo {
+        position: absolute;
+        right: 0;
+        transform: translateX(-110%);
+        bottom: 0;
+      }
+    }
+
+    .phone {
+      text-align: center;
+      margin-bottom: 18px;
+
+      .phone-number {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 140%;
+        margin-right: 6px;
+      }
+
+      img {
+        vertical-align: middle;
+        display: inline-block;
+      }
     }
   }
 }
