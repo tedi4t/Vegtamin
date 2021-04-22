@@ -128,7 +128,7 @@ section#selector-1 button.selector-btn, section#selector-2 button.selector-btn, 
 }
 
 section#selector-1 img {
-  margin-top: 60px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -136,7 +136,7 @@ section#selector-2 {
   display: block;
 }
 section#selector-2 .cards {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 section#selector-2 .cards .card {
   display: flex;
@@ -209,7 +209,7 @@ section#selector-2 .cards .card:nth-child(2n) .card-info .arrow .arrow-text {
 }
 
 section#selector-3 img {
-  margin-top: 40px;
+  margin-top: 45px;
   width: 100%;
 }
 
