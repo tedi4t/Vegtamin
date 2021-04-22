@@ -116,7 +116,6 @@ section#selector-1 .selector-title, section#selector-2 .selector-title, section#
 }
 section#selector-1 button.selector-btn, section#selector-2 button.selector-btn, section#selector-3 button.selector-btn {
   margin-top: 100px;
-  margin-bottom: 55px;
   padding: 7px 47px;
   border: 1.5px solid #71B83E;
   box-sizing: border-box;
@@ -212,4 +211,23 @@ section#selector-2 .cards .card:nth-child(2n) .card-info .arrow .arrow-text {
 section#selector-3 img {
   margin-top: 40px;
   width: 100%;
+}
+
+section#homepage-icons {
+  margin: 130px 26px 0 26px;
+}
+section#homepage-icons .icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+section#homepage-icons .icons .icon-card img {
+  width: 100%;
+}
+section#homepage-icons .icons .icon-card .icon-card-text {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.2px;
 }/*# sourceMappingURL=style.css.map */
