@@ -1,0 +1,27 @@
+$gray: #7B7B7B;
+$green: #71B83E;
+
+section#fail-message {
+  margin-top: 130px;
+  text-align: center;
+  padding: 0 35px;
+
+  h3.fail-text {
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  button.fail-btn {
+    margin-top: 80px;
+    background: #71B83E;
+    border-radius: 12px;
+    border-width: 0;
+    padding: 6px 20px 8px 20px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
