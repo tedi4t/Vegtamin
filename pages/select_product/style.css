@@ -36,6 +36,7 @@ section#search {
   position: relative;
 }
 section#search input {
+  color: #7B7B7B;
   width: 100%;
   text-align: right;
   background: #F5F5F5;
@@ -74,6 +75,28 @@ section#choice .choice-items .item-wrap .item.active {
   border: 1px solid #71B83E;
   box-sizing: border-box;
   border-radius: 10px;
+}
+
+section#not-found {
+  margin-top: 25px;
+  text-align: center;
+  position: relative;
+  display: none;
+}
+section#not-found img.not-found-img {
+  margin-top: 18px;
+}
+section#not-found img.not-found-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-54%);
+}
+section#not-found h3.not-found-text {
+  margin-top: 53px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 section#goods {
