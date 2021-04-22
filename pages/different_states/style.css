@@ -1,0 +1,166 @@
+section#goods {
+  margin: 50px 20px 0 20px;
+}
+section#goods .good-items .good {
+  margin-bottom: 16px;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  padding: 15px 12px;
+  position: relative;
+}
+section#goods .good-items .good .good-heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+section#goods .good-items .good .good-heading .good-info {
+  flex-basis: 70%;
+  max-width: 70%;
+}
+section#goods .good-items .good .good-heading .good-info h3 {
+  text-align: right;
+  font-size: 14px;
+  line-height: 24px;
+}
+section#goods .good-items .good .good-heading .good-info h4 {
+  text-align: right;
+  font-size: 11px;
+  line-height: 20px;
+  color: #A4A5A7;
+}
+section#goods .good-items .good .good-heading .good-info .radio-items {
+  text-align: right;
+}
+section#goods .good-items .good .good-heading .good-info .radio-items .radio-item {
+  display: inline-block;
+  margin-right: 23px;
+}
+section#goods .good-items .good .good-heading .good-info .radio-items .radio-item label {
+  font-size: 12px;
+  line-height: 28px;
+  color: #A4A5A7;
+}
+section#goods .good-items .good .good-heading .good-info .radio-items .radio-item label::after {
+  right: -10px;
+}
+section#goods .good-items .good .good-heading .good-info .radio-items .radio-item label::before {
+  right: -13px;
+}
+section#goods .good-items .good .good-heading .good-photo {
+  flex-basis: 30%;
+  max-width: 30%;
+  text-align: center;
+}
+section#goods .good-items .good .good-heading .good-photo img {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+section#goods .good-items .good .good-buy {
+  width: 69%;
+  display: flex;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-wrapper {
+  flex-basis: 30%;
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-wrapper .text {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 12px;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-wrapper button.good-buy-btn {
+  padding: 9px 11px 11px 13px;
+  border-radius: 17px;
+  background: #71B83E;
+  border-width: 0;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper button.good-buy-quantity {
+  display: inline-block;
+  border: 1px solid #F0F0F0;
+  border-radius: 14px;
+  background: #fff;
+  color: #7B7B7B;
+  font-size: 23px;
+  padding: 4px 10px;
+  margin-top: 0;
+  vertical-align: top;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper button.good-buy-quantity.active {
+  color: #71B83E;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-btn-quantity-value {
+  margin-top: 5px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-btn-quantity-value .value {
+  font-size: 16px;
+  line-height: 18px;
+  color: #181725;
+}
+section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-btn-quantity-value .post {
+  font-size: 9px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.4;
+}
+section#goods .good-items .good .good-buy .good-buy-info {
+  flex-basis: 70%;
+  max-width: 70%;
+}
+section#goods .good-items .good .good-buy .good-buy-info .good-name {
+  font-size: 12px;
+  line-height: 28px;
+  text-align: right;
+  color: #000000;
+  opacity: 0.4;
+}
+section#goods .good-items .good .good-buy .good-buy-info .good-quantity {
+  font-size: 9px;
+  line-height: 28px;
+  text-align: right;
+  color: #282829;
+}
+section#goods .good-items .good .good-buy .good-buy-info .good-quantity .pre {
+  display: inline-block;
+  margin-right: 7px;
+}
+section#goods .good-items .good .good-buy .good-buy-info .good-quantity .good-quantity-value {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 42px;
+  letter-spacing: -0.004em;
+  color: #000000;
+}
+section#goods .good-items .good .good-buy .good-buy-info.fb-50 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+section#goods .good-items .good .good-discount {
+  position: absolute;
+  right: -4px;
+  top: 20px;
+}
+section#goods .good-items .good.active {
+  border-color: #71B83E;
+}
+section#goods .good-items .good.active .good-tick-active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #71B83E;
+  transform: translateY(-50%) translateX(-50%);
+  border-radius: 30px;
+  padding: 2px 3px 0 3px;
+}
+section#goods .good-items .good.unactive {
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
