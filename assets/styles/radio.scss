@@ -33,6 +33,17 @@ $green: #71B83E;
     visibility: hidden;
   }
 
+  input[type=radio].radio-lg + label::after {
+    width: 22px;
+    height: 22px;
+  }
+
+  input[type=radio].radio-lg + label::before {
+    right: -26px;
+    width: 10px;
+    height: 10px;
+  }
+
   input[type=radio]:checked + label::before {
     background: $green;
   }

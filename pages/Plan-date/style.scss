@@ -1,0 +1,40 @@
+$gray: #7B7B7B;
+$green: #71B83E;
+
+section#states {
+  margin: 100px 20px 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .state {
+    width: 100px;
+    margin: 0 15px;
+    text-align: center;
+
+    .state-text {
+      margin-top: 10px;
+      color: $gray;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 20px;
+    }
+  }
+
+  .state.active {
+    .state-text {
+      color: $green;
+    }
+
+    img.tick-sm {
+      margin-right: 3px;
+    }
+  }
+
+  .state-line {
+    width: 70px;
+    height: 1px;
+    background: $gray;
+  }
+}

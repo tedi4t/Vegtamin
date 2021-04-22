@@ -25,6 +25,15 @@
 .radio-item input[type=radio] {
   visibility: hidden;
 }
+.radio-item input[type=radio].radio-lg + label::after {
+  width: 22px;
+  height: 22px;
+}
+.radio-item input[type=radio].radio-lg + label::before {
+  right: -26px;
+  width: 10px;
+  height: 10px;
+}
 .radio-item input[type=radio]:checked + label::before {
   background: #71B83E;
 }/*# sourceMappingURL=radio.css.map */
