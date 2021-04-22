@@ -1,0 +1,30 @@
+.radio-item label {
+  position: relative;
+}
+.radio-item label::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateX(100%) translateY(-50%);
+  width: 13px;
+  height: 13px;
+  border: 1px solid #A4A5A7;
+  border-radius: 20px;
+}
+.radio-item label::before {
+  content: "";
+  position: absolute;
+  right: -23px;
+  top: 50%;
+  transform: translateX(100%) translateY(-50%);
+  width: 7px;
+  height: 7px;
+  border-radius: 20px;
+}
+.radio-item input[type=radio] {
+  visibility: hidden;
+}
+.radio-item input[type=radio]:checked + label::before {
+  background: #71B83E;
+}/*# sourceMappingURL=radio.css.map */

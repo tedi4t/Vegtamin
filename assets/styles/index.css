@@ -26,4 +26,8 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+button:disabled {
+  opacity: 0.4;
 }/*# sourceMappingURL=index.css.map */
