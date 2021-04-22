@@ -386,4 +386,37 @@ section#advantages .advantages-indicators .indicator {
   border-radius: 10px;
   margin: 0 3px;
   background: #71B83E;
+}
+
+section#calendar {
+  margin: 130px 16px 125px 16px;
+  position: relative;
+  text-align: center;
+}
+section#calendar img.calendar-bg {
+  width: 100%;
+}
+section#calendar .calendar-text {
+  position: absolute;
+  left: 13%;
+  right: 13%;
+  top: 30%;
+}
+section#calendar .calendar-text .calendar-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 36px;
+  color: #000;
+}
+section#calendar .calendar-text button.calendar-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  background: #71B83E;
+  color: #fff;
+  text-align: center;
+  padding: 7px 24px;
+  border-radius: 12px;
+  border-width: 0;
 }/*# sourceMappingURL=style.css.map */

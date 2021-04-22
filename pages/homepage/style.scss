@@ -431,10 +431,6 @@ section#advantages {
     .stars {
       text-align: center;
       margin-top: 6px;
-
-      img.star {
-      
-      }
     }
 
     h4.advantage-desc {
@@ -457,6 +453,43 @@ section#advantages {
       border-radius: 10px;
       margin: 0 3px;
       background: $green;
+    }
+  }
+}
+
+section#calendar {
+  margin: 130px 16px 125px 16px;
+  position: relative;
+  text-align: center;
+
+  img.calendar-bg {
+    width: 100%;
+  }
+
+  .calendar-text {
+    position: absolute;
+    left: 13%;
+    right: 13%;
+    top: 30%;
+
+    .calendar-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 36px;
+      color: #000;
+    }
+
+    button.calendar-btn {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 30px;
+      background: $green;
+      color: #fff;
+      text-align: center;
+      padding: 7px 24px;
+      border-radius: 12px;
+      border-width: 0;
     }
   }
 }
