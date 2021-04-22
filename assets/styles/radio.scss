@@ -48,3 +48,7 @@ $green: #71B83E;
     background: $green;
   }
 }
+
+.radio-item.active {
+  border-color: $green!important;
+}

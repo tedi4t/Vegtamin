@@ -36,4 +36,8 @@
 }
 .radio-item input[type=radio]:checked + label::before {
   background: #71B83E;
+}
+
+.radio-item.active {
+  border-color: #71B83E !important;
 }/*# sourceMappingURL=radio.css.map */

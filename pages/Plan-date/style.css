@@ -26,4 +26,66 @@ section#states .state-line {
   width: 70px;
   height: 1px;
   background: #7B7B7B;
+}
+
+section#date-1, section#date-2 {
+  margin-top: 60px;
+  padding: 0 20px 0 14px;
+}
+section#date-1 .date-title, section#date-2 .date-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+}
+section#date-1 .date-radio-group, section#date-2 .date-radio-group {
+  margin-top: 20px;
+}
+section#date-1 .date-radio-group .date-radio-item, section#date-2 .date-radio-group .date-radio-item {
+  padding: 25px;
+  margin-top: 10px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: right;
+}
+section#date-1 .date-radio-group .date-radio-item label, section#date-2 .date-radio-group .date-radio-item label {
+  margin-right: 35px;
+}
+
+section#date-2 {
+  margin-top: 50px;
+}
+section#date-2 .date-radio-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 14px;
+}
+section#date-2 .date-radio-group .date-radio-item {
+  margin-top: 0;
+}
+section#date-btn-wrapper {
+  padding: 30px 14px 25px 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+}
+section#date-btn-wrapper button.date-btn {
+  width: 100%;
+  background: #71B83E;
+  border-radius: 16px;
+  padding: 26px 16px;
+  border-width: 0px;
+}
+section#date-btn-wrapper button.date-btn img {
+  float: left;
+}
+section#date-btn-wrapper button.date-btn .btn-text {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFF9FF;
 }/*# sourceMappingURL=style.css.map */

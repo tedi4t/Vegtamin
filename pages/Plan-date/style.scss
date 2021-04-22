@@ -38,3 +38,83 @@ section#states {
     background: $gray;
   }
 }
+
+section#date-1, section#date-2 {
+  margin-top: 60px;
+  padding: 0 20px 0 14px;
+
+  .date-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+  }
+
+  .date-radio-group {
+    margin-top: 20px;
+  
+    .date-radio-item {
+      padding: 25px;
+      margin-top: 10px;
+      border: 1px solid #DADADA;
+      box-sizing: border-box;
+      border-radius: 10px;
+      text-align: right;
+
+      label {
+        margin-right: 35px;
+      }
+    }
+  }
+}
+
+section#date-2 {
+  margin-top: 50px;
+
+  .date-title {
+
+  }
+
+  .date-radio-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 14px;
+    
+    .date-radio-item {
+      margin-top: 0;
+
+      label {
+        
+      }
+    }
+  }
+}
+
+section#date-btn-wrapper {
+  padding: 30px 14px 25px 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+
+  button.date-btn {
+    width: 100%;
+    background: $green;
+    border-radius: 16px;
+    padding: 26px 16px;
+    border-width: 0px;
+  
+    img {
+      float: left;
+    }
+  
+    .btn-text {
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      color: #FFF9FF;
+    }
+  }
+}
