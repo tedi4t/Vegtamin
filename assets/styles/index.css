@@ -20,6 +20,10 @@ body {
   color: #71B83E;
 }
 
+.text-bold {
+  font-weight: 500;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
