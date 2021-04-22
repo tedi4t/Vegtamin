@@ -39,16 +39,16 @@ section#states {
   }
 }
 
-section#date-1, section#date-2 {
+section#date-1, section#date-2, section#date-3 {
   margin-top: 60px;
   padding: 0 20px 0 14px;
 
   .date-title {
-    position: relative;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
     text-align: right;
+    position: relative;
 
     img.tick-down {
       position: absolute;
@@ -74,7 +74,7 @@ section#date-1, section#date-2 {
   }
 }
 
-section#date-2 {
+section#date-2, section#date-3 {
   margin-top: 50px;
 
   .date-title {
@@ -96,6 +96,24 @@ section#date-2 {
   }
 }
 
+section#date-3 {
+
+  .date-title {
+
+  }
+
+  .date-radio-group {
+
+
+    .date-radio-item {
+
+      label {
+        
+      }
+    }
+  }
+}
+
 section#date-btn-wrapper {
   padding: 30px 14px 25px 14px;
   position: fixed;
@@ -104,6 +122,14 @@ section#date-btn-wrapper {
   right: 0;
   z-index: 1000;
   background: #fff;
+
+  .time-res {
+    text-align: right;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 7px;
+  }
 
   button.date-btn {
     width: 100%;
