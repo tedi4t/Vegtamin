@@ -230,4 +230,69 @@ section#homepage-icons .icons .icon-card .icon-card-text {
   line-height: 36px;
   text-align: center;
   letter-spacing: 0.2px;
+}
+
+section#homepage-goods {
+  margin: 115px 10px 0 10px;
+}
+section#homepage-goods .goods-title {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+section#homepage-goods .good-block {
+  margin-top: 38px;
+}
+section#homepage-goods .good-block .good-block-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-align: right;
+  margin-right: 15px;
+}
+section#homepage-goods .good-block .good-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+section#homepage-goods .good-block .good-images .good-img {
+  flex-basis: 33.3333%;
+  max-width: 33.33333%;
+  padding: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+section#homepage-goods .good-block .good-images .good-img:last-child {
+  border-right-width: 0px;
+}
+section#homepage-goods .good-block .good-titles {
+  display: flex;
+  flex-wrap: wrap;
+}
+section#homepage-goods .good-block .good-titles .good-title {
+  flex-basis: 33.3333%;
+  max-width: 33.33333%;
+}
+section#homepage-goods .good-block .good-titles .good-title h3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 0;
+}
+section#homepage-goods .goods-btn {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 8px 48px;
+  background: #71B83E;
+  border: 1.5px solid #71B83E;
+  box-sizing: border-box;
+  border-radius: 12px;
 }/*# sourceMappingURL=style.css.map */

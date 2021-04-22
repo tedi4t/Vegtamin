@@ -8,6 +8,7 @@ $green: #71B83E;
 
 body {
   font-family: 'Yekan' sans-serif;
+  margin: 0;
 }
 
 .text-green {
@@ -16,4 +17,8 @@ body {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
 }
