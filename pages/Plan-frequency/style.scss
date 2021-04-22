@@ -39,3 +39,52 @@ section#states {
     // border: 1px solid $gray;
   }
 }
+
+section#frequency {
+  margin-top: 60px;
+  padding: 0 20px 0 12px;
+
+  .frequency-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+  }
+
+  .frequency-radio-group {
+    margin-top: 20px;
+  
+    .frequency-radio-item {
+      padding: 25px;
+      margin-top: 10px;
+      border: 1px solid #DADADA;
+      box-sizing: border-box;
+      border-radius: 10px;
+      text-align: right;
+
+      label {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  button.frequency-btn {
+    margin-top: 50px;
+    width: 100%;
+    background: $green;
+    border-radius: 16px;
+    padding: 26px 16px;
+    border-width: 0px;
+
+    img {
+      float: left;
+    }
+
+    .btn-text {
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      color: #FFF9FF;
+    }
+  }
+}
