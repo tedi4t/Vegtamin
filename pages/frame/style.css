@@ -215,6 +215,7 @@ section#frame-radio .frame-item {
   box-sizing: border-box;
   border-radius: 10px;
   padding: 11px 15px;
+  position: relative;
 }
 section#frame-radio .frame-item .content {
   display: flex;
@@ -251,6 +252,16 @@ section#frame-radio .frame-item .content label::after {
 }
 section#frame-radio .frame-item .content label::before {
   right: -16px;
+}
+section#frame-radio .frame-item .frame-icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 20px;
+  left: 15px;
+}
+section#frame-radio .frame-item .frame-icons img {
+  margin-top: 14px;
 }
 section#frame-radio .frame-add-item {
   margin-top: 30px;
