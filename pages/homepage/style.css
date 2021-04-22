@@ -300,6 +300,12 @@ section#homepage-goods .goods-btn {
 section#homepage-icons-2 {
   margin: 90px 30px 0 30px;
 }
+section#homepage-icons-2 .icons-title {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+}
 section#homepage-icons-2 .icons {
   display: flex;
   flex-wrap: wrap;
@@ -325,4 +331,59 @@ section#homepage-icons-2 .icons .icon-card .icon-card-text {
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #7B7B7B;
+}
+
+section#advantages {
+  margin-top: 100px;
+  position: relative;
+}
+section#advantages h3.advantages-title {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+}
+section#advantages img.line-bg {
+  position: absolute;
+  right: 0;
+  top: 85px;
+  z-index: -1;
+}
+section#advantages .advantage-block {
+  margin: 100px 30px 0 25px;
+  background: #E6F6FF;
+  border-radius: 10px;
+  padding: 25px 20px 20px 20px;
+}
+section#advantages .advantage-block h3, section#advantages .advantage-block h4 {
+  margin: 0;
+}
+section#advantages .advantage-block h3.advantage-title {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 200%;
+  text-align: center;
+}
+section#advantages .advantage-block .stars {
+  text-align: center;
+  margin-top: 6px;
+}
+section#advantages .advantage-block h4.advantage-desc {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 200%;
+  text-align: center;
+}
+section#advantages .advantages-indicators {
+  margin-top: 14px;
+  text-align: center;
+}
+section#advantages .advantages-indicators .indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  margin: 0 3px;
+  background: #71B83E;
 }/*# sourceMappingURL=style.css.map */

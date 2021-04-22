@@ -355,7 +355,10 @@ section#homepage-icons-2 {
   margin: 90px 30px 0 30px;
 
   .icons-title {
-
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;    
   }
 
   .icons {
@@ -386,6 +389,74 @@ section#homepage-icons-2 {
         letter-spacing: 0.2px;
         color: #7B7B7B;
       }
+    }
+  }
+}
+
+section#advantages {
+  margin-top: 100px;
+  position: relative;
+
+  h3.advantages-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+  }
+
+  img.line-bg {
+    position: absolute;
+    right: 0;
+    top: 85px;
+    z-index: -1;
+  }
+
+  .advantage-block {
+    margin: 100px 30px 0 25px;
+    background: #E6F6FF;
+    border-radius: 10px;
+    padding: 25px 20px 20px 20px;
+
+    h3, h4 {
+      margin: 0;
+    }
+
+    h3.advantage-title {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 200%;
+      text-align: center;
+    }
+
+    .stars {
+      text-align: center;
+      margin-top: 6px;
+
+      img.star {
+      
+      }
+    }
+
+    h4.advantage-desc {
+      margin-top: 10px;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 200%;
+      text-align: center;
+    }
+  }
+
+  .advantages-indicators {
+    margin-top: 14px;
+    text-align: center;
+
+    .indicator {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 10px;
+      margin: 0 3px;
+      background: $green;
     }
   }
 }
