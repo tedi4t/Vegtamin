@@ -90,8 +90,20 @@ section#plan-items-1 .plan-items-footer .plan-footer-left {
   letter-spacing: 0.15em;
 }
 
+section#plan-items-error {
+  margin: 7px 16px 0 16px;
+  background: rgba(247, 165, 147, 0.25);
+  border-radius: 12px;
+  padding: 11px 30px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
 section#plan-items-2 {
-  margin-top: 85px;
+  margin-top: 32px;
   padding: 0 17px;
 }
 section#plan-items-2 .plan-items-header {
@@ -164,6 +176,7 @@ section#plan-items-2 .plan-items-wrapper .plan-items-footer {
   border-bottom-width: 0;
   padding-top: 10px;
 }
+
 section#plan-toggler-section {
   margin: 8px 17px 0 17px;
   padding: 20px 25px 20px 10px;
@@ -181,6 +194,8 @@ section#plan-toggler-section .toggler {
   box-sizing: border-box;
   border-radius: 20px;
   padding: 3px;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
 }
 section#plan-toggler-section .toggler .active-toggler {
   width: 20px;
@@ -191,6 +206,15 @@ section#plan-toggler-section .toggler .active-toggler {
   left: 2px;
   top: 2px;
   bottom: 0;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+section#plan-toggler-section .toggler.active {
+  background: #71B83E;
+}
+section#plan-toggler-section .toggler.active .active-toggler {
+  background: #fff;
+  transform: translateX(100%);
 }
 section#plan-toggler-section .toggler-text {
   font-size: 12px;

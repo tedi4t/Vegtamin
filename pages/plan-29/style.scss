@@ -112,8 +112,20 @@ section#plan-items-1 {
   }
 }
 
+section#plan-items-error {
+  margin: 7px 16px 0 16px;
+  background: rgba(247, 165, 147, 0.25);
+  border-radius: 12px;
+  padding: 11px 30px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0;
+  transition-duration: .5s;
+}
+
 section#plan-items-2 {
-  margin-top: 85px;
+  margin-top: 32px;
   padding: 0 17px;
 
   .plan-items-header {
@@ -195,24 +207,6 @@ section#plan-items-2 {
     .plan-items-footer {
       border-bottom-width: 0;
       padding-top: 10px;
-
-      .plan-item {
-
-        .pre {
-          
-          
-        }
-
-        .quantity {
-          
-          
-        }
-
-        .name {
-          
-          
-        }
-      }
     }
   }
 }
@@ -234,6 +228,8 @@ section#plan-toggler-section {
     box-sizing: border-box;
     border-radius: 20px;
     padding: 3px;
+    transition-duration: .4s;
+    transition-timing-function: ease-out;
 
     .active-toggler {
       width: 20px;
@@ -244,6 +240,20 @@ section#plan-toggler-section {
       left: 2px;
       top: 2px;
       bottom: 0;
+      transition-duration: .4s;
+      transition-timing-function: ease-out;
+    }
+  }
+
+  .toggler.active {
+    background: $green;
+
+    .active-toggler {
+      background: #fff;
+      transform: translateX(100%);
+      // left: 100%;
+      // left: auto;
+      // right: 2px;
     }
   }
 
