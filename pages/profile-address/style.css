@@ -1,0 +1,82 @@
+section#return-back {
+  margin-top: 80px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+section#return-back .text {
+  font-weight: 500;
+  font-size: 12px;
+  color: #7B7B7B;
+  margin-right: 8px;
+}
+
+section#frame-radio {
+  margin-top: 55px;
+  padding: 0 16px;
+}
+section#frame-radio .frame-radio-title {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+}
+section#frame-radio .frame-item {
+  margin-top: 22px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 11px 15px;
+  position: relative;
+}
+section#frame-radio .frame-item .content {
+  width: 100%;
+  text-align: right;
+}
+section#frame-radio .frame-item .content .middle {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-radio .frame-item .content .bottom {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+section#frame-radio .frame-item .content .bottom .gray {
+  margin-left: 6px;
+  color: #7B7B7B;
+}
+section#frame-radio .frame-item .frame-icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 20px;
+  left: 15px;
+}
+section#frame-radio .frame-item .frame-icons img {
+  margin-top: 14px;
+}
+section#frame-radio .frame-add-item-wrapper {
+  text-align: center;
+}
+section#frame-radio .frame-add-item-wrapper button.frame-add-item {
+  margin: 30px auto 0 auto;
+  font-weight: normal;
+  font-size: 14px;
+  color: #71B83E;
+  background: transparent;
+  border: 1px solid #71B83E;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 10px 30px;
+}
+section#frame-radio .frame-add-item-wrapper button.frame-add-item .text, section#frame-radio .frame-add-item-wrapper button.frame-add-item img {
+  display: inline-block;
+  vertical-align: middle;
+}
+section#frame-radio .frame-add-item-wrapper button.frame-add-item .text {
+  margin-right: 6px;
+}/*# sourceMappingURL=style.css.map */
