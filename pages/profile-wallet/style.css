@@ -70,6 +70,7 @@ section#wallet .wallet-prev img.tick-left {
   margin-right: 12px;
 }
 section#wallet .wallet-prev .text {
+  font-weight: 800;
   font-size: 12px;
   color: #282829;
 }/*# sourceMappingURL=style.css.map */
