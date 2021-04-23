@@ -1,0 +1,204 @@
+section#plan-31-items {
+  margin-top: 100px;
+  padding: 0 15px;
+}
+section#plan-31-items .plan-title {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  color: #181725;
+}
+section#plan-31-items .plan-wrapper {
+  margin-top: 23px;
+  background: rgba(238, 238, 238, 0.6);
+  border: 1px solid #F2F3F2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0 20px;
+  position: relative;
+}
+section#plan-31-items .plan-wrapper .plan-header {
+  padding: 19px 0 25px 0;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#plan-31-items .plan-wrapper .plan-header .plan-header-text {
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+}
+section#plan-31-items .plan-wrapper .plan-header img.edit {
+  position: absolute;
+  left: 25px;
+}
+section#plan-31-items .plan-wrapper .plan-main {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#plan-31-items .plan-wrapper .plan-main .plan-item {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+section#plan-31-items .plan-wrapper .plan-main .plan-item .item-left {
+  text-align: left;
+}
+section#plan-31-items .plan-wrapper .plan-main .plan-item .item-left h4, section#plan-31-items .plan-wrapper .plan-main .plan-item .item-left h5 {
+  margin: 0;
+}
+section#plan-31-items .plan-wrapper .plan-main .plan-item .item-left h4 {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.004em;
+}
+section#plan-31-items .plan-wrapper .plan-main .plan-item .item-left h5 {
+  font-size: 8px;
+  line-height: 24px;
+  color: #7B7B7B;
+}
+section#plan-31-items .plan-wrapper .plan-main .plan-item .item-right {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+section#plan-31-items .plan-wrapper .plan-main .plan-main-total {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+  text-align: right;
+  color: #615D5C;
+}
+section#plan-31-items .plan-wrapper .plan-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 25px 0;
+}
+section#plan-31-items .plan-wrapper .plan-footer .footer-left {
+  text-align: left;
+}
+section#plan-31-items .plan-wrapper .plan-footer .footer-left h4, section#plan-31-items .plan-wrapper .plan-footer .footer-left h5 {
+  margin: 0;
+}
+section#plan-31-items .plan-wrapper .plan-footer .footer-left h4 {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.004em;
+}
+section#plan-31-items .plan-wrapper .plan-footer .footer-left h5 {
+  font-size: 8px;
+  line-height: 24px;
+  color: #7B7B7B;
+}
+section#plan-31-items .plan-wrapper .plan-footer .footer-right {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+section#frame-radio {
+  margin-top: 55px;
+  padding: 0 16px;
+}
+section#frame-radio .frame-radio-title {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  margin-bottom: 15px;
+}
+section#frame-radio .frame-item {
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 11px 15px;
+  position: relative;
+}
+section#frame-radio .frame-item .content {
+  display: flex;
+}
+section#frame-radio .frame-item .content input {
+  flex-basis: 0%;
+  max-width: 0%;
+}
+section#frame-radio .frame-item .content label {
+  flex-basis: 87%;
+  max-width: 87%;
+  text-align: right;
+}
+section#frame-radio .frame-item .content label .top {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-radio .frame-item .content label .middle {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-radio .frame-item .content label .bottom {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-radio .frame-item .content label .gray {
+  color: #7B7B7B;
+}
+section#frame-radio .frame-item .content label::after {
+  right: -10px;
+}
+section#frame-radio .frame-item .content label::before {
+  right: -16px;
+}
+section#frame-radio .frame-item .frame-icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 20px;
+  left: 15px;
+}
+section#frame-radio .frame-item .frame-icons img {
+  margin-top: 14px;
+}
+section#frame-radio .frame-add-item {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #71B83E;
+}
+section#frame-radio .frame-add-item .text, section#frame-radio .frame-add-item img {
+  display: inline-block;
+  vertical-align: middle;
+}
+section#frame-radio .frame-add-item .text {
+  margin-right: 6px;
+}
+
+section#frame-btn-wrapper {
+  padding: 30px 14px 25px 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+}
+section#frame-btn-wrapper button.date-btn {
+  width: 100%;
+  background: #71B83E;
+  border-radius: 16px;
+  padding: 26px 16px;
+  border-width: 0px;
+}
+section#frame-btn-wrapper button.date-btn .btn-text {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFF9FF;
+}/*# sourceMappingURL=style.css.map */
