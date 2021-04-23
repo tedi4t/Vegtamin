@@ -27,21 +27,24 @@ section#history-selectors {
 }
 section#history-selectors .selectors {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
-section#history-selectors .selectors .selector {
-  flex-basis: 33.33333%;
-  max-width: 33.33333%;
-  padding: 2px 10px 5px 10px;
+section#history-selectors .selectors .selector-wrapper {
+  margin-right: 14px;
+}
+section#history-selectors .selectors .selector-wrapper .selector {
+  padding: 7px 18px;
   font-weight: normal;
   font-size: 12px;
-  line-height: 24px;
-  text-align: center;
 }
-section#history-selectors .selectors .selector.active {
+section#history-selectors .selectors .selector-wrapper .selector.active {
   border: 1px solid #71B83E;
   box-sizing: border-box;
   border-radius: 10px;
+}
+section#history-selectors .selectors .selector-wrapper:last-child {
+  margin-right: 0;
 }
 
 section#history-items-section {

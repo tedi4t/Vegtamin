@@ -33,23 +33,30 @@ section#history-selectors {
 
   .selectors {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 
-    .selector {
-      flex-basis: 33.33333%;
-      max-width: 33.33333%;
-      padding: 2px 10px 5px 10px;
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 24px;
-      text-align: center;
+    .selector-wrapper {
+      margin-right: 14px;
+
+      .selector {
+        padding: 7px 18px;
+        font-weight: normal;
+        font-size: 12px;
+      }
+
+      .selector.active {
+        border: 1px solid #71B83E;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
     }
 
-    .selector.active {
-      border: 1px solid #71B83E;
-      box-sizing: border-box;
-      border-radius: 10px;
+    .selector-wrapper:last-child {
+      margin-right: 0;
     }
+
+    
   }
 }
 
