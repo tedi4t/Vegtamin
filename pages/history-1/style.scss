@@ -1,0 +1,113 @@
+$gray: #7B7B7B;
+$input-bg: #F5F5F5;
+$green: #71B83E;
+$good-border: #DADADA;
+
+section#return-back {
+  margin-top: 80px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+  .text {
+    font-weight: 500;
+    font-size: 12px;
+    color: #7B7B7B;
+    margin-right: 8px;
+  }
+}
+
+section#history-title {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+  padding: 0 21px;
+}
+
+section#history-selectors {
+  margin-top: 18px;
+  padding: 0 18px;
+
+  .selectors {
+    display: flex;
+    justify-content: space-between;
+
+    .selector {
+      flex-basis: 33.33333%;
+      max-width: 33.33333%;
+      padding: 2px 10px 5px 10px;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .selector.active {
+      border: 1px solid #71B83E;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+  }
+}
+
+section#history-items-section {
+  margin-top: 15px;
+  margin-bottom: 70px;
+  padding: 0 16px;
+
+  .history-items {
+
+
+    .item {
+      margin-top: 7px;
+      background: rgba(238, 238, 238, 0.6);
+      border: 1px solid #F2F3F2;
+      box-sizing: border-box;
+      border-radius: 10px;
+      padding: 8px 17px 9px 12px;
+      position: relative;
+
+      .tick-left {
+        position: absolute;
+        left: 21px;
+        top: 14px;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 8px;
+
+        .col-1 {
+          flex-basis: 72%;
+          max-width: 72%;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 24px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+        }
+
+        .col-2 {
+          flex-basis: 28%;
+          max-width: 28%;
+          font-size: 12px;
+          line-height: 24px;
+          text-align: right;
+          color: rgba(0, 0, 0, 0.8);
+        }
+      }
+
+      
+    }
+  }
+
+  .dot {
+    margin: 0 13px 0 13px;
+  }
+}
