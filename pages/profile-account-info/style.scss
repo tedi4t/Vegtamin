@@ -43,6 +43,21 @@ section#edit-fields {
         margin-top: 9px;
         font-size: 14px;
         color: #030303;
+
+        .date {
+          display: flex;
+          justify-content: flex-end;
+
+          .date-item {
+
+          }
+
+          .slash {
+            margin-left: 8px;
+            margin-right: 8px;
+            color: #7B7B7B;
+          }
+        }
       }
     }
 

@@ -38,6 +38,15 @@ section#edit-fields .fields .field .field-body {
   font-size: 14px;
   color: #030303;
 }
+section#edit-fields .fields .field .field-body .date {
+  display: flex;
+  justify-content: flex-end;
+}
+section#edit-fields .fields .field .field-body .date .slash {
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #7B7B7B;
+}
 section#edit-fields .fields .field:first-child {
   margin-top: 0;
 }
