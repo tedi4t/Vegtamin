@@ -1,0 +1,94 @@
+section#return-back {
+  margin-top: 80px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+section#return-back .text {
+  font-weight: 500;
+  font-size: 12px;
+  color: #7B7B7B;
+  margin-right: 8px;
+}
+
+section#history-section {
+  margin: 48px 16px 75px 16px;
+  padding: 20px 20px 25px 20px;
+  background: rgba(238, 238, 238, 0.6);
+  border: 1px solid #F2F3F2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+section#history-section h4, section#history-section h5 {
+  margin: 0;
+}
+section#history-section .history-title {
+  text-align: right;
+  font-weight: 500;
+  font-size: 12px;
+}
+section#history-section .history-header {
+  margin-top: 27px;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#history-section .history-header h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #615D5C;
+}
+section#history-section .history-main {
+  margin-top: 20px !important;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#history-section .history-main .history-item {
+  margin-top: 30px;
+}
+section#history-section .history-main .history-item h4 {
+  font-size: 12px;
+}
+section#history-section .history-main .history-item h5 {
+  font-size: 8px;
+  color: #7B7B7B;
+  margin-top: 4px;
+}
+section#history-section .history-main .history-item .name {
+  font-weight: normal;
+  font-size: 12px;
+}
+section#history-section .history-footer {
+  margin-top: 15px;
+}
+section#history-section .history-footer h4 {
+  font-size: 12px;
+}
+section#history-section .history-footer h5 {
+  font-size: 8px;
+  color: #7B7B7B;
+}
+section#history-section .history-footer .name {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#history-section .grid-cols {
+  display: flex;
+  flex-wrap: wrap;
+}
+section#history-section .grid-cols .col-1, section#history-section .grid-cols .col-2, section#history-section .grid-cols .col-3 {
+  flex-basis: 23%;
+  max-width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section#history-section .grid-cols .col-4 {
+  flex-basis: 31%;
+  max-width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}/*# sourceMappingURL=style.css.map */
