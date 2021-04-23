@@ -614,5 +614,226 @@ section#details-2 {
       border-width: 0;
     }
   }
+}
 
+section#overlays {
+  .bg-dark {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .delete-confirmation, .edit-frequency {
+    border-radius: 30px 30px 0px 0px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 150;
+    transform: translateY(100%);
+    transition-duration: .4s;
+  }
+
+  .delete-confirmation {
+    padding: 47px 16px 40px 16px;
+
+    .title {
+      font-weight: 500;
+      font-size: 12px;
+      text-align: right;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      
+      button.success {
+        flex-basis: 65%;
+        max-width: 65%;
+        background: #71B83E;
+        border-radius: 14px;
+        text-align: center;
+        padding: 13px 0;
+        font-weight: 500;
+        font-size: 12px;
+        color: #fff;
+        border-width: 0;
+      }
+
+      button.fail {
+        flex-basis: 35%;
+        max-width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 12px;
+        color: #71B83E;
+        border-width: 0;
+        background: transparent;
+      }
+    }
+  }
+
+  .edit-frequency {
+    padding: 47px 16px 40px 16px;
+    
+    .date-item {
+      padding: 21px 0 15px 0;
+      border-bottom: 1px solid #E2E2E2;
+
+      .date-title {
+        text-align: right;
+        position: relative;
+
+        h3, h4 {
+          margin: 0;
+        }
+
+        h3 {
+          font-weight: normal;
+          font-size: 14px;
+        }
+
+        h4 {
+          font-weight: 500;
+          margin-top: 15px;
+          font-size: 12px;
+          color: #7B7B7B;
+        }
+        
+        img {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      .date-radio-group {
+        padding: 30px 0 20px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 14px;
+      
+        .date-radio-item {
+          padding: 25px;
+          border: 1px solid #DADADA;
+          box-sizing: border-box;
+          border-radius: 10px;
+          text-align: right;
+    
+          label {
+            margin-right: 35px;
+          }
+        }
+      }
+    }
+
+    .date-item:last-child {
+      border-bottom-width: 0
+    }
+
+    .buttons {
+      margin-top: 35px;
+      padding: 0 23px;
+      display: flex;
+      flex-wrap: wrap;
+      
+      button.success {
+        flex-basis: 65%;
+        max-width: 65%;
+        background: #71B83E;
+        border-radius: 14px;
+        text-align: center;
+        padding: 13px 0;
+        font-weight: 500;
+        font-size: 12px;
+        color: #fff;
+        border-width: 0;
+      }
+
+      button.fail {
+        flex-basis: 35%;
+        max-width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 12px;
+        color: #71B83E;
+        border-width: 0;
+        background: transparent;
+      }
+    }
+  }
+}
+
+
+// --------------------------
+
+
+
+section#date-2 {
+  margin-top: 60px;
+  padding: 0 20px 0 14px;
+
+  .date-title {
+    position: relative;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    img.tick-down {
+      position: absolute;
+      left: 10px;
+    }
+  }
+
+  .date-radio-group {
+    margin-top: 20px;
+  
+    .date-radio-item {
+      padding: 25px;
+      margin-top: 10px;
+      border: 1px solid #DADADA;
+      box-sizing: border-box;
+      border-radius: 10px;
+      text-align: right;
+
+      label {
+        margin-right: 35px;
+      }
+    }
+  }
+}
+
+section#date-2 {
+  margin-top: 50px;
+
+  .date-title {
+
+  }
+
+  .date-radio-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 14px;
+    
+    .date-radio-item {
+      margin-top: 0;
+
+      label {
+        
+      }
+    }
+  }
 }

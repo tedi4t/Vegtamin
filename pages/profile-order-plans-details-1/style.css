@@ -492,4 +492,184 @@ section#details-2 .details-items .detail-item img.tick-left {
 }
 section#details-2 .details-items .detail-item:last-child {
   border-width: 0;
+}
+
+section#overlays .bg-dark {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  opacity: 0;
+}
+section#overlays .delete-confirmation, section#overlays .edit-frequency {
+  border-radius: 30px 30px 0px 0px;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 150;
+  transform: translateY(100%);
+  transition-duration: 0.4s;
+}
+section#overlays .delete-confirmation {
+  padding: 47px 16px 40px 16px;
+}
+section#overlays .delete-confirmation .title {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: right;
+}
+section#overlays .delete-confirmation .buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#overlays .delete-confirmation .buttons button.success {
+  flex-basis: 65%;
+  max-width: 65%;
+  background: #71B83E;
+  border-radius: 14px;
+  text-align: center;
+  padding: 13px 0;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  border-width: 0;
+}
+section#overlays .delete-confirmation .buttons button.fail {
+  flex-basis: 35%;
+  max-width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #71B83E;
+  border-width: 0;
+  background: transparent;
+}
+section#overlays .edit-frequency {
+  padding: 47px 16px 40px 16px;
+}
+section#overlays .edit-frequency .date-item {
+  padding: 21px 0 15px 0;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#overlays .edit-frequency .date-item .date-title {
+  text-align: right;
+  position: relative;
+}
+section#overlays .edit-frequency .date-item .date-title h3, section#overlays .edit-frequency .date-item .date-title h4 {
+  margin: 0;
+}
+section#overlays .edit-frequency .date-item .date-title h3 {
+  font-weight: normal;
+  font-size: 14px;
+}
+section#overlays .edit-frequency .date-item .date-title h4 {
+  font-weight: 500;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #7B7B7B;
+}
+section#overlays .edit-frequency .date-item .date-title img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+section#overlays .edit-frequency .date-item .date-radio-group {
+  padding: 30px 0 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 14px;
+}
+section#overlays .edit-frequency .date-item .date-radio-group .date-radio-item {
+  padding: 25px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: right;
+}
+section#overlays .edit-frequency .date-item .date-radio-group .date-radio-item label {
+  margin-right: 35px;
+}
+section#overlays .edit-frequency .date-item:last-child {
+  border-bottom-width: 0;
+}
+section#overlays .edit-frequency .buttons {
+  margin-top: 35px;
+  padding: 0 23px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#overlays .edit-frequency .buttons button.success {
+  flex-basis: 65%;
+  max-width: 65%;
+  background: #71B83E;
+  border-radius: 14px;
+  text-align: center;
+  padding: 13px 0;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  border-width: 0;
+}
+section#overlays .edit-frequency .buttons button.fail {
+  flex-basis: 35%;
+  max-width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #71B83E;
+  border-width: 0;
+  background: transparent;
+}
+
+section#date-2 {
+  margin-top: 60px;
+  padding: 0 20px 0 14px;
+}
+section#date-2 .date-title {
+  position: relative;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+}
+section#date-2 .date-title img.tick-down {
+  position: absolute;
+  left: 10px;
+}
+section#date-2 .date-radio-group {
+  margin-top: 20px;
+}
+section#date-2 .date-radio-group .date-radio-item {
+  padding: 25px;
+  margin-top: 10px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: right;
+}
+section#date-2 .date-radio-group .date-radio-item label {
+  margin-right: 35px;
+}
+
+section#date-2 {
+  margin-top: 50px;
+}
+section#date-2 .date-radio-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 14px;
+}
+section#date-2 .date-radio-group .date-radio-item {
+  margin-top: 0;
 }/*# sourceMappingURL=style.css.map */

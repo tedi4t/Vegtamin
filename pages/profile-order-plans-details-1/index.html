@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../../assets/styles/navbar.css">
   <link rel="stylesheet" href="../../assets/styles/footer.css">
   <link rel="stylesheet" href="../../assets/styles/dropdown.css">
+  <link rel="stylesheet" href="../../assets/styles/radio.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -390,12 +391,100 @@
         </div>
       </div>
     </div>
-    
   </section>
+
+  <section id="overlays">
+    <div class="bg-dark"></div>
+
+    <div class="delete-confirmation">
+      <div class="title">
+        ؟ﺪﯾراد نﺎﻨﯿﻤﻃا دﻮﺧ یا ﻪﺘﻔﻫ ود ﻪﻣﺎﻧﺮﺑ فﺬﺣ زا ﺎﯾآ
+      </div>
+      <div class="buttons">
+        <button class="success">
+          فﺬﺣ ﻮﻐﻟ
+        </button>
+        <button class="fail">
+          دﻮﺷ فﺬﺣ
+        </button>
+      </div>
+    </div>
+
+    <div class="edit-frequency">
+      <div class="date-item">
+        <div class="date-title">
+          <img src="../../assets/icons/tick-up-green.svg" alt="">
+          <h3>
+            ﺪﯿﻨﮐ ﺺﺨﺸﻣ ار تﺎﻟﻮﺼﺤﻣ ﻞﯾﻮﺤﺗ زور
+          </h3>
+        </div>
+        <div class="date-radio-group radio-group">
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="date-2-1" name="date-2" class="radio-lg">
+            <label for="date-2-1">
+              ﺎﻫ‌ﻪﺒﻨﺸﮑﯾ
+            </label>
+          </div>
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="date-2-2" name="date-2" class="radio-lg">
+            <label for="date-2-2">
+              ﺎﻫ‌ﻪﺒﻨﺷ
+            </label>
+          </div>
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="date-2-3" name="date-2" class="radio-lg">
+            <label for="date-2-3">
+              ﺎﻫ‌ﻪﺒﻨﺷ‌ﻪﺳ
+            </label>
+          </div>
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="date-2-4" name="date-2" class="radio-lg">
+            <label for="date-2-4">
+              ﺎﻫ‌ﻪﺒﻨﺷود
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="date-item">
+        <div class="date-title">
+          <img src="../../assets/icons/tick-down-green.svg" alt="">
+          <h3>
+            ﻞﯾﻮﺤﺗ زور ﺶﯾاﺮﯾو
+          </h3>
+          <h4>
+            ﺎﻫ‌ﻪﺒﻨﺸﮑﯾ
+          </h4>
+        </div>
+      </div>
+
+      <div class="date-item">
+        <div class="date-title">
+          <img src="../../assets/icons/tick-down-green.svg" alt="">
+          <h3>
+            ﻞﯾﻮﺤﺗ ﺖﻋﺎﺳ ﺶﯾاﺮﯾو
+          </h3>
+          <h4>
+            رصع
+          </h4>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="success">
+          فﺬﺣ ﻮﻐﻟ
+        </button>
+        <button class="fail">
+          دﻮﺷ فﺬﺣ
+        </button>
+      </div>
+    </div>
+  </section>  
 
   <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
   <script src="../../scripts/navbar.js"></script>
   <script src="../../scripts/radio.js"></script>
   <script src="../../scripts/dropdown.js"></script>
+  <script src="./script/index.js"></script>
 </body>
 </html>
