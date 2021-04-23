@@ -1,0 +1,134 @@
+section#return-back {
+  margin-top: 80px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+section#return-back .text {
+  font-weight: 500;
+  font-size: 12px;
+  color: #7B7B7B;
+  margin-right: 8px;
+}
+
+section#history-title {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+  padding: 0 21px;
+}
+
+section#history-selectors {
+  margin-top: 18px;
+  padding: 0 18px;
+}
+section#history-selectors .selectors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+section#history-selectors .selectors .selector-wrapper {
+  margin-right: 14px;
+}
+section#history-selectors .selectors .selector-wrapper .selector {
+  padding: 7px 18px;
+  font-weight: normal;
+  font-size: 12px;
+}
+section#history-selectors .selectors .selector-wrapper .selector.active {
+  border: 1px solid #71B83E;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+section#history-selectors .selectors .selector-wrapper:last-child {
+  margin-right: 0;
+}
+
+section#goods {
+  margin: 50px 20px 0 20px;
+}
+section#goods .good-items .good {
+  margin-bottom: 16px;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  padding: 15px 12px;
+  position: relative;
+}
+section#goods .good-items .good .good-heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+section#goods .good-items .good .good-heading .good-info {
+  flex-basis: 70%;
+  max-width: 70%;
+}
+section#goods .good-items .good .good-heading .good-info h3.good-title {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+}
+section#goods .good-items .good .good-heading .good-info .good-characteristics {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#goods .good-items .good .good-heading .good-info .good-characteristics .pre, section#goods .good-items .good .good-heading .good-info .good-characteristics .quantity, section#goods .good-items .good .good-heading .good-info .good-characteristics .name {
+  display: flex;
+  align-items: center;
+}
+section#goods .good-items .good .good-heading .good-info .good-characteristics .pre {
+  justify-content: flex-end;
+  flex-basis: 20%;
+  max-width: 20%;
+  font-size: 9px;
+  line-height: 28px;
+  color: #282829;
+}
+section#goods .good-items .good .good-heading .good-info .good-characteristics .quantity {
+  justify-content: center;
+  flex-basis: 12%;
+  max-width: 12%;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.004em;
+}
+section#goods .good-items .good .good-heading .good-info .good-characteristics .name {
+  justify-content: flex-end;
+  flex-basis: 68%;
+  max-width: 68%;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: right;
+  color: #000000;
+  opacity: 0.4;
+}
+section#goods .good-items .good .good-heading .good-photo {
+  flex-basis: 30%;
+  max-width: 30%;
+  text-align: center;
+}
+section#goods .good-items .good .good-heading .good-photo img {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+section#goods .good-items .good.active {
+  border-color: #71B83E;
+}
+section#goods .good-items .good.active .good-tick-active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #71B83E;
+  transform: translateY(-50%) translateX(-50%);
+  border-radius: 30px;
+  padding: 2px 3px 0 3px;
+}
+section#goods .good-items .good.unactive {
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
