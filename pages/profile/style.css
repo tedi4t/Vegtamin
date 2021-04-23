@@ -1,0 +1,91 @@
+section#return-back {
+  margin-top: 80px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+section#return-back .text {
+  font-weight: 500;
+  font-size: 12px;
+  color: #7B7B7B;
+  margin-right: 8px;
+}
+section#me {
+  margin: 35px 16px 0 16px;
+  padding: 22px 24px 25px 0;
+  background: #F2F3F2;
+  border-radius: 18px;
+  text-align: right;
+  position: relative;
+}
+section#me .name {
+  font-weight: 800;
+  font-size: 14px;
+}
+section#me .desc {
+  margin-top: 18px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #7C7C7C;
+}
+section#me img.edit {
+  position: absolute;
+  left: 16px;
+  top: 24px;
+}
+
+section#settings {
+  margin-top: 30px;
+}
+section#settings .setting-item {
+  border-bottom: 1px solid #E2E2E2;
+  padding: 22px 47px 20px 37px;
+  display: flex;
+  justify-content: flex-end;
+}
+section#settings .setting-item img.tick-left {
+  margin-right: auto;
+}
+section#settings .setting-item img.tick-left.option-img {
+  margin-right: 12px;
+}
+section#settings .setting-item .option {
+  margin-right: auto;
+  background: #F2F3F2;
+  border-radius: 8px;
+  padding: 4px 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#settings .setting-item .option .pre {
+  font-weight: normal;
+  font-size: 9px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+section#settings .setting-item .option .text {
+  font-weight: 500;
+  font-size: 14px;
+}
+section#settings .setting-item .setting-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  margin-right: 20px;
+}
+section#logout {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  padding: 0 45px 0 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+section#logout .text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+  color: #7B7B7B;
+  margin-right: 23px;
+}/*# sourceMappingURL=style.css.map */
