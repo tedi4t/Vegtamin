@@ -1,0 +1,118 @@
+$gray: #7B7B7B;
+$green: #71B83E;
+
+section#page-header {
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C1C1C5;
+
+  .close, .big-logo, .text-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .close {
+    margin-left: 10px;
+  }
+
+  .big-logo {
+    justify-content: center;
+
+    .text {
+      font-weight: 800;
+      font-size: 14px;
+      color: #615D5C;
+    }
+
+    .logo {
+      margin-left: 11px;
+      width: 28px;
+    }
+  }
+
+  .text-right {
+    justify-content: flex-end;
+    font-weight: normal;
+    font-size: 12px;
+  }
+}
+
+section#page-image-header {
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+
+  img.apple {
+
+  }
+
+  img.sides {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+section#page-title {
+  margin-top: 60px;
+  padding: 0 10px;
+  text-align: center;
+
+  h3 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: #282829;
+  }
+}
+
+section#edit-fields {
+  margin-top: 25px;
+  padding: 0 15px;
+  text-align: right;
+
+  .fields {
+    margin-top: 20px;
+
+    .field {
+      margin-top: 30px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #E2E2E2;
+
+      .field-title {
+        font-weight: 500;
+        font-size: 12px;
+        color: #7C7C7C;
+      }
+
+      .field-body {
+        margin-top: 9px;
+        font-size: 14px;
+        color: #030303;
+      }
+    }
+
+    .field:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+section#submit-btn {
+  margin-top: 30px;
+  padding: 0 16px;
+
+  button {
+    background: #71B83E;
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 20px;
+    font-size: 14px;
+    color: #FFF9FF;
+    border-width: 0;
+  }
+}
+

@@ -1,0 +1,96 @@
+section#page-header {
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C1C1C5;
+}
+section#page-header .close, section#page-header .big-logo, section#page-header .text-right {
+  display: flex;
+  align-items: center;
+}
+section#page-header .close {
+  margin-left: 10px;
+}
+section#page-header .big-logo {
+  justify-content: center;
+}
+section#page-header .big-logo .text {
+  font-weight: 800;
+  font-size: 14px;
+  color: #615D5C;
+}
+section#page-header .big-logo .logo {
+  margin-left: 11px;
+  width: 28px;
+}
+section#page-header .text-right {
+  justify-content: flex-end;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+section#page-image-header {
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+}
+section#page-image-header img.sides {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+section#page-title {
+  margin-top: 60px;
+  padding: 0 10px;
+  text-align: center;
+}
+section#page-title h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  color: #282829;
+}
+
+section#edit-fields {
+  margin-top: 25px;
+  padding: 0 15px;
+  text-align: right;
+}
+section#edit-fields .fields {
+  margin-top: 20px;
+}
+section#edit-fields .fields .field {
+  margin-top: 30px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#edit-fields .fields .field .field-title {
+  font-weight: 500;
+  font-size: 12px;
+  color: #7C7C7C;
+}
+section#edit-fields .fields .field .field-body {
+  margin-top: 9px;
+  font-size: 14px;
+  color: #030303;
+}
+section#edit-fields .fields .field:first-child {
+  margin-top: 0;
+}
+
+section#submit-btn {
+  margin-top: 30px;
+  padding: 0 16px;
+}
+section#submit-btn button {
+  background: #71B83E;
+  border-radius: 16px;
+  text-align: center;
+  width: 100%;
+  padding: 25px 20px;
+  font-size: 14px;
+  color: #FFF9FF;
+  border-width: 0;
+}/*# sourceMappingURL=style.css.map */
