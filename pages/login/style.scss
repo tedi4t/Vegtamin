@@ -1,0 +1,107 @@
+$gray: #7B7B7B;
+$green: #71B83E;
+
+section#page-header {
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C1C1C5;
+
+  .close, .big-logo, .text-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .close {
+    margin-left: 10px;
+  }
+
+  .big-logo {
+    justify-content: center;
+
+    .text {
+      font-weight: 800;
+      font-size: 14px;
+      color: #615D5C;
+    }
+
+    .logo {
+      margin-left: 11px;
+      width: 28px;
+    }
+  }
+
+  .text-right {
+    justify-content: flex-end;
+    font-weight: normal;
+    font-size: 12px;
+  }
+}
+
+section#page-image-header {
+  margin-top: 40px;
+  text-align: center;
+}
+
+section#page-title {
+  margin-top: 60px;
+  padding: 0 10px;
+  text-align: center;
+
+  h3, h4 {
+    margin: 0;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 16px;
+    color: #282829;
+  }
+
+  h4 {
+    margin-top: 9px;
+    font-size: 14px;
+    color: #A4A5A7;
+  }
+}
+
+section#password-input {
+  margin-top: 45px;
+  padding: 0 10px;
+
+  input.password {
+    width: 100%;
+    font-size: 14px;
+    color: #C1C1C5;
+    padding: 5px 11px;
+    border-width: 0;
+    border-bottom: 1px solid #E2E2E2;
+    text-align: right;
+  }
+}
+
+section#submit-btn {
+  margin-top: 109px;
+  padding: 0 16px;
+
+  button {
+    background: #71B83E;
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 20px;
+    font-size: 14px;
+    color: #FFF9FF;
+    border-width: 0;
+  }
+}
+
+section#footer-text {
+  margin-top: 22px;
+  padding: 0 16px;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  color: #5D5E5F;
+  opacity: 0.8;
+}

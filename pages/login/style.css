@@ -1,0 +1,93 @@
+section#page-header {
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C1C1C5;
+}
+section#page-header .close, section#page-header .big-logo, section#page-header .text-right {
+  display: flex;
+  align-items: center;
+}
+section#page-header .close {
+  margin-left: 10px;
+}
+section#page-header .big-logo {
+  justify-content: center;
+}
+section#page-header .big-logo .text {
+  font-weight: 800;
+  font-size: 14px;
+  color: #615D5C;
+}
+section#page-header .big-logo .logo {
+  margin-left: 11px;
+  width: 28px;
+}
+section#page-header .text-right {
+  justify-content: flex-end;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+section#page-image-header {
+  margin-top: 40px;
+  text-align: center;
+}
+
+section#page-title {
+  margin-top: 60px;
+  padding: 0 10px;
+  text-align: center;
+}
+section#page-title h3, section#page-title h4 {
+  margin: 0;
+  font-weight: normal;
+}
+section#page-title h3 {
+  font-size: 16px;
+  color: #282829;
+}
+section#page-title h4 {
+  margin-top: 9px;
+  font-size: 14px;
+  color: #A4A5A7;
+}
+
+section#password-input {
+  margin-top: 45px;
+  padding: 0 10px;
+}
+section#password-input input.password {
+  width: 100%;
+  font-size: 14px;
+  color: #C1C1C5;
+  padding: 5px 11px;
+  border-width: 0;
+  border-bottom: 1px solid #E2E2E2;
+  text-align: right;
+}
+
+section#submit-btn {
+  margin-top: 109px;
+  padding: 0 16px;
+}
+section#submit-btn button {
+  background: #71B83E;
+  border-radius: 16px;
+  text-align: center;
+  width: 100%;
+  padding: 25px 20px;
+  font-size: 14px;
+  color: #FFF9FF;
+  border-width: 0;
+}
+
+section#footer-text {
+  margin-top: 22px;
+  padding: 0 16px;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  color: #5D5E5F;
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */
