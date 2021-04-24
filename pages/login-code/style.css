@@ -1,0 +1,108 @@
+section#page-header {
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C1C1C5;
+}
+section#page-header .close, section#page-header .big-logo, section#page-header .text-right {
+  display: flex;
+  align-items: center;
+}
+section#page-header .close {
+  margin-left: 10px;
+}
+section#page-header .big-logo {
+  justify-content: center;
+}
+section#page-header .big-logo .text {
+  font-weight: 800;
+  font-size: 14px;
+  color: #615D5C;
+}
+section#page-header .big-logo .logo {
+  margin-left: 11px;
+  width: 28px;
+}
+section#page-header .text-right {
+  justify-content: flex-end;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+section#page-image-header {
+  margin-top: 40px;
+  text-align: center;
+}
+
+section#page-title {
+  margin-top: 60px;
+  padding: 0 10px;
+  text-align: center;
+}
+section#page-title h3, section#page-title h4 {
+  margin: 0;
+  font-weight: normal;
+}
+section#page-title h3 {
+  font-size: 16px;
+  color: #282829;
+}
+section#page-title h4 {
+  margin-top: 9px;
+  font-size: 14px;
+  color: #A4A5A7;
+}
+
+section#code-section {
+  margin-top: 45px;
+  padding: 0 10px;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 19px;
+  justify-content: center;
+}
+section#code-section input.digit {
+  font-size: 14px;
+  color: #000;
+  width: 55px;
+  border-width: 0;
+  border-bottom: 1px solid #E2E2E2;
+  text-align: center;
+}
+
+section#code-text {
+  margin-top: 20px;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+}
+section#code-text .title {
+  text-align: center;
+  color: #5D5E5F;
+}
+section#code-text .body {
+  text-align: center;
+  margin-top: 4px;
+}
+section#code-text .body .text {
+  display: inline-block;
+  color: #8A8A8A;
+  border-bottom: 1px solid #8A8A8A;
+}
+
+section#submit-btn {
+  margin-top: 30px;
+  padding: 0 16px;
+}
+section#submit-btn button {
+  background: #71B83E;
+  border-radius: 16px;
+  text-align: center;
+  width: 100%;
+  padding: 25px 20px;
+  font-size: 14px;
+  color: #FFF9FF;
+  border-width: 0;
+}/*# sourceMappingURL=style.css.map */
