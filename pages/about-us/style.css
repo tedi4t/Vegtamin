@@ -1,0 +1,106 @@
+section#header {
+  margin-top: 95px;
+  padding: 0 12px;
+  text-align: right;
+}
+section#header h3 {
+  font-weight: 800;
+  font-size: 14px;
+}
+section#header .text {
+  margin-top: 20px;
+}
+section#header .text h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+section#main {
+  margin-top: 50px;
+  padding: 0 12px;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#main .main-img {
+  flex-basis: 37%;
+  max-width: 37%;
+}
+section#main .main-img .img-wrapper {
+  margin-left: -12px;
+  padding: 14px 14px 14px 0;
+  position: relative;
+}
+section#main .main-img .img-wrapper img.goods {
+  width: 210px;
+  width: 100%;
+}
+section#main .main-img .img-wrapper img.ellipse {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+}
+section#main .main-text {
+  flex-basis: 63%;
+  max-width: 63%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 15px;
+}
+section#main .main-text h3 {
+  font-weight: 800;
+  font-size: 14px;
+}
+section#main .main-text .text {
+  margin-top: 20px;
+}
+section#main .main-text .text h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+section#people {
+  margin-top: 70px;
+  padding: 0 12px;
+}
+section#people .title {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+}
+section#people .people-images {
+  margin: 35px -35px 0 -35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  grid-gap: 20px;
+}
+section#people .people-images .img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#people .people-images .img-wrapper img {
+  width: 100%;
+}
+section#people .people-footer {
+  margin-top: 13px;
+  text-align: center;
+}
+section#people .people-footer .name {
+  font-weight: 500;
+  font-size: 12px;
+}
+section#people .people-footer .desc {
+  font-weight: normal;
+  font-size: 10px;
+  color: #7B7B7B;
+  margin-top: 4px;
+}/*# sourceMappingURL=style.css.map */

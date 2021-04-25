@@ -7,11 +7,6 @@
   font-weight: normal;
   font-style: normal;
 }
-html {
-  max-width: 550px;
-  border: 1px solid #b8b1b1;
-}
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
