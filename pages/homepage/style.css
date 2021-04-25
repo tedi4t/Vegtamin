@@ -1,6 +1,8 @@
 section#header {
   margin-top: 87px;
   padding: 0 17px;
+}
+section#header .header-wrapper {
   position: relative;
 }
 section#header img {
@@ -25,7 +27,10 @@ section#header .header-info {
   right: 0;
   top: 0;
   bottom: 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 21px 23px;
   border-radius: 18px;
   z-index: 6;
@@ -267,6 +272,9 @@ section#homepage-goods .good-block .good-images .good-img {
   max-width: 33.33333%;
   padding: 10px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 section#homepage-goods .good-block .good-images .good-img:last-child {
   border-right-width: 0px;
@@ -393,7 +401,8 @@ section#advantages .advantages-indicators .indicator {
 }
 
 section#calendar {
-  margin: 130px 0 125px 0;
+  margin: 130px;
+  margin-bottom: 125px;
   padding: 16px;
   position: relative;
   text-align: center;

@@ -3,7 +3,10 @@ $green: #71B83E;
 section#header {
   margin-top: 87px;
   padding: 0 17px;
-  position: relative;
+  
+  .header-wrapper {
+    position: relative;
+  }
 
   img {
     display: block;
@@ -29,7 +32,10 @@ section#header {
     right: 0;
     top: 0;
     bottom: 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 21px 23px;
     border-radius: 18px;
     z-index: 6;
@@ -313,6 +319,9 @@ section#homepage-goods {
         max-width: 33.33333%;
         padding: 10px;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .good-img:last-child {
@@ -462,7 +471,8 @@ section#advantages {
 }
 
 section#calendar {
-  margin: 130px 0 125px 0;
+  margin: 130px;
+  margin-bottom: 125px;
   padding: 16px;
   position: relative;
   text-align: center;

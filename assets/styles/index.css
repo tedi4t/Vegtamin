@@ -32,7 +32,8 @@ button:disabled {
 
 .container {
   width: 100%;
-  margin: 0 auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 @media screen and (min-width: 768px) {
