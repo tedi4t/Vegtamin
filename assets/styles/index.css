@@ -1,19 +1,15 @@
+@import url(//db.onlinewebfonts.com/c/50e9084d51fca72d0b7b32dc11e54eab?family=IRAN);
 @font-face {
-  font-family: "Yekan";
-  src: url("../fonts/yekan/Yekan.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/yekan/Yekan.eot?#iefix") format("embedded-opentype"), url("../fonts/yekan/Yekan.woff2") format("woff2"), url("../fonts/yekan/Yekan.woff") format("woff"), url("../fonts/yekan/Yekan.otf") format("opentype"), url("../fonts/yekan/Yekan.ttf") format("truetype"), url("../fonts/yekan/Yekan.svg#Yekan") format("svg");
-  /* Legacy iOS */
-  font-weight: normal;
-  font-style: normal;
+  font-family: "IRAN";
+  src: url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.eot");
+  src: url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.woff") format("woff"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.svg#IRAN") format("svg");
 }
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Yekan" sans-serif;
-  margin: 0;
+  font-family: "IRAN";
 }
 
 .text-green {
