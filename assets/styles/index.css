@@ -1,15 +1,13 @@
-@import url(//db.onlinewebfonts.com/c/50e9084d51fca72d0b7b32dc11e54eab?family=IRAN);
-@font-face {
-  font-family: "IRAN";
-  src: url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.eot");
-  src: url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.woff") format("woff"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.svg#IRAN") format("svg");
-}
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "IRAN";
+* {
+  font-family: persian;
+}
+
+main {
+  margin-top: 4rem;
 }
 
 .text-green {

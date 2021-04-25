@@ -1,30 +1,37 @@
-// @import './fonts.scss';
-
-@import url(//db.onlinewebfonts.com/c/50e9084d51fca72d0b7b32dc11e54eab?family=IRAN);
-
-@font-face {
-  font-family: "IRAN"; 
-  src: url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.eot"); 
-  src: url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/50e9084d51fca72d0b7b32dc11e54eab.svg#IRAN") format("svg"); 
-}
-
 $green: #71B83E;
 
 html {
-  // max-width: 550px;
-  // border: 1px solid rgb(184, 177, 177);
+  
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+* {
+  font-family: persian;
+}
+
+// .column {
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// @media only screen and (min-width: 768px) {
+//   .column-md-12 {
+//     width: 100%;
+//   }
+// }
+
+main {
+    margin-top: 4rem;
+}
+
 body {
-  font-family: 'IRAN';
+  // font-family: 'IRAN';
   // margin: 0;
 }
 
@@ -46,4 +53,8 @@ body {
 
 button:disabled {
   opacity: 0.4;
+}
+
+.container {
+  
 }
