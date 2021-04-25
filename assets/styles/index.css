@@ -28,4 +28,15 @@ main {
 
 button:disabled {
   opacity: 0.4;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 83.3333333333%;
+  }
 }/*# sourceMappingURL=index.css.map */

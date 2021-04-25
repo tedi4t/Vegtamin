@@ -1,5 +1,6 @@
 section#goods {
-  margin: 85px 20px 0 20px;
+  margin-top: 85px;
+  padding: 0 20px;
 }
 section#goods h3.goods-title {
   font-weight: 800;

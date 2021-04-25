@@ -1,7 +1,8 @@
 $green: #71B83E;
 
 section#header {
-  margin: 87px 17px 0 17px;
+  margin-top: 87px;
+  padding: 0 17px;
   position: relative;
 
   img {
@@ -252,7 +253,8 @@ section#selector-3 {
 }
 
 section#homepage-icons {
-  margin: 130px 26px 0 26px;
+  margin-top: 130px;
+  padding: 0 26px;
 
   .icons {
     display: grid;
@@ -277,7 +279,8 @@ section#homepage-icons {
 }
 
 section#homepage-goods {
-  margin: 115px 10px 0 10px;
+  margin-top: 115px;
+  padding: 0 10px;
 
   .goods-title {
     font-weight: 800;
@@ -352,7 +355,8 @@ section#homepage-goods {
 }
 
 section#homepage-icons-2 {
-  margin: 90px 30px 0 30px;
+  margin-top: 90px;
+  padding: 0 30px;
 
   .icons-title {
     font-weight: 800;
@@ -458,7 +462,8 @@ section#advantages {
 }
 
 section#calendar {
-  margin: 130px 16px 125px 16px;
+  margin: 130px 0 125px 0;
+  padding: 16px;
   position: relative;
   text-align: center;
 

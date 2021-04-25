@@ -31,8 +31,7 @@ main {
 }
 
 body {
-  // font-family: 'IRAN';
-  // margin: 0;
+  
 }
 
 .text-green {
@@ -56,5 +55,12 @@ button:disabled {
 }
 
 .container {
-  
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 83.3333333333%;
+  }
 }
