@@ -54,6 +54,7 @@ section#frequency .frequency-radio-group .frequency-radio-item label {
   margin-right: 35px;
 }
 section#frequency button.frequency-btn {
+  cursor: pointer;
   margin-top: 50px;
   width: 100%;
   background: #71B83E;

@@ -13,7 +13,8 @@ section#success-message {
     line-height: 24px;
   }
 
-  button.success-btn {
+  a.success-btn {
+    display: inline-block;
     margin-top: 80px;
     background: #71B83E;
     border-radius: 12px;

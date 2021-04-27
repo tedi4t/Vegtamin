@@ -180,6 +180,9 @@ section#plan-items-2 .plan-items-wrapper .plan-items-footer {
 
 section#plan-toggler-section {
   margin-top: 8px;
+  padding: 0 17px;
+}
+section#plan-toggler-section .toggler-wrapper {
   padding: 20px 42px 20px 27px;
   border: 1px solid #DADADA;
   box-sizing: border-box;
@@ -187,7 +190,7 @@ section#plan-toggler-section {
   display: flex;
   justify-content: space-between;
 }
-section#plan-toggler-section .toggler {
+section#plan-toggler-section .toggler-wrapper .toggler {
   position: relative;
   width: 46px;
   height: 26px;
@@ -198,7 +201,7 @@ section#plan-toggler-section .toggler {
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
-section#plan-toggler-section .toggler .active-toggler {
+section#plan-toggler-section .toggler-wrapper .toggler .active-toggler {
   width: 20px;
   height: 20px;
   border-radius: 20px;
@@ -210,14 +213,14 @@ section#plan-toggler-section .toggler .active-toggler {
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
-section#plan-toggler-section .toggler.active {
+section#plan-toggler-section .toggler-wrapper .toggler.active {
   background: #71B83E;
 }
-section#plan-toggler-section .toggler.active .active-toggler {
+section#plan-toggler-section .toggler-wrapper .toggler.active .active-toggler {
   background: #fff;
   transform: translateX(100%);
 }
-section#plan-toggler-section .toggler-text {
+section#plan-toggler-section .toggler-wrapper .toggler-text {
   font-size: 12px;
   text-align: right;
   display: flex;
@@ -233,14 +236,15 @@ section#frame-btn-wrapper {
   z-index: 1000;
   background: #fff;
 }
-section#frame-btn-wrapper button.date-btn {
+section#frame-btn-wrapper a.date-btn {
+  display: block;
   width: 100%;
   background: #71B83E;
   border-radius: 16px;
   padding: 26px 16px;
   border-width: 0px;
 }
-section#frame-btn-wrapper button.date-btn .btn-text {
+section#frame-btn-wrapper a.date-btn .btn-text {
   font-size: 16px;
   line-height: 18px;
   text-align: center;

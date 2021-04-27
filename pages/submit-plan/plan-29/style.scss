@@ -214,55 +214,59 @@ section#plan-items-2 {
 
 section#plan-toggler-section {
   margin-top: 8px;
-  padding: 20px 42px 20px 27px;
-  border: 1px solid #DADADA;
-  box-sizing: border-box;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-
-  .toggler {
-    position: relative;
-    width: 46px;
-    height: 26px;
-    border: 1px solid #71B83E;
+  padding: 0 17px;
+  
+  .toggler-wrapper {
+    padding: 20px 42px 20px 27px;
+    border: 1px solid #DADADA;
     box-sizing: border-box;
-    border-radius: 20px;
-    padding: 3px;
-    transition-duration: .4s;
-    transition-timing-function: ease-out;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;  
 
-    .active-toggler {
-      width: 20px;
-      height: 20px;
+    .toggler {
+      position: relative;
+      width: 46px;
+      height: 26px;
+      border: 1px solid #71B83E;
+      box-sizing: border-box;
       border-radius: 20px;
-      background: $green;
-      position: absolute;
-      left: 2px;
-      top: 2px;
-      bottom: 0;
+      padding: 3px;
       transition-duration: .4s;
       transition-timing-function: ease-out;
+
+      .active-toggler {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        background: $green;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        bottom: 0;
+        transition-duration: .4s;
+        transition-timing-function: ease-out;
+      }
     }
-  }
 
-  .toggler.active {
-    background: $green;
+    .toggler.active {
+      background: $green;
 
-    .active-toggler {
-      background: #fff;
-      transform: translateX(100%);
-      // left: 100%;
-      // left: auto;
-      // right: 2px;
+      .active-toggler {
+        background: #fff;
+        transform: translateX(100%);
+        // left: 100%;
+        // left: auto;
+        // right: 2px;
+      }
     }
-  }
 
-  .toggler-text {
-    font-size: 12px;
-    text-align: right;
-    display: flex;
-    align-items: center;
+    .toggler-text {
+      font-size: 12px;
+      text-align: right;
+      display: flex;
+      align-items: center;
+    }
   }
 }
 
@@ -275,7 +279,8 @@ section#frame-btn-wrapper {
   z-index: 1000;
   background: #fff;
 
-  button.date-btn {
+  a.date-btn {
+    display: block;
     width: 100%;
     background: $green;
     border-radius: 16px;

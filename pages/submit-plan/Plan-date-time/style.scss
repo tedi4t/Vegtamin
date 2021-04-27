@@ -132,7 +132,8 @@ section#date-btn-wrapper {
     margin-bottom: 7px;
   }
 
-  button.date-btn {
+  a.date-btn {
+    display: block;
     width: 100%;
     background: $green;
     border-radius: 16px;
