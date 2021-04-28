@@ -84,56 +84,73 @@
 </div>
 </nav>
 
-  <section class="container" id="date-1" class="dropdown">
-    <h3 class="date-title dropdown-toggle">
-      <img src="../../../assets/icons/tick-down-green.svg" alt="tick-down-green" class="tick-down">
+  <section class="container" id="states">
+    <div class="state">
+      <img src="../../../assets/icons/tick.svg" alt="tick">
+      <div class="state-text">ﻪﻣﺎﻧﺮﺑ ﺖﺒﺛ</div>
+    </div>
+
+    <div class="state-line"></div>
+
+    <div class="state active">
+      <img src="../../../assets/icons/calendar-active.svg" alt="calendar-active">
+      <div class="state-text">ﯽﻧﺎﻣز هرود بﺎﺨﺘﻧا
+        ﻪﻣﺎﻧﺮﺑ</div>
+      </div>
+
+
+    <div class="state-line"></div>
+
+    <div class="state active">
+      <img src="../../../assets/icons/grocery-active.svg" alt="grocery-active">
+      <div class="state-text">
+        <img src="../../../assets/icons/tick-sm-green.svg" alt="tick-sm-green" class="tick-sm">
+        تﺎﻟﻮﺼﺤﻣ بﺎﺨﺘﻧا
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="frequency">
+    <h3 class="frequency-title">
       ﺪﯿﻨﮐ بﺎﺨﺘﻧا ار دﻮﺧ ﺪﯾﺮﺧ ﻪﻣﺎﻧﺮﺑ ﯽﻧﺎﻣز هرود
     </h3>
-    <div class="date-radio-group radio-group dropdown-items">
-      <div></div>
-      <div class="date-radio-item radio-item">
-        <input type="radio" id="date-1-1" name="date-1" class="radio-lg">
-        <label for="date-1-1">
+    <div class="frequency-radio-group radio-group">
+      <div class="frequency-radio-item radio-item">
+        <input type="radio" id="frequency-1" 
+        name="frequency" class="radio-lg">
+        <label for="frequency-1">
           یگتفه
         </label>
       </div>
-    </div>
-  </section>
-
-  <section class="container" id="date-2">
-    <h3 class="date-title">
-      ﺪﯿﻨﮐ ﺺﺨﺸﻣ ار تﺎﻟﻮﺼﺤﻣ ﻞﯾﻮﺤﺗ زور
-    </h3>
-    <div class="date-radio-group radio-group">
-      <div class="date-radio-item radio-item">
-        <input type="radio" id="date-2-1" name="date-2" class="radio-lg">
-        <label for="date-2-1">
-          ﺎﻫ‌ﻪﺒﻨﺸﮑﯾ
+      <div class="frequency-radio-item radio-item">
+        <input type="radio" id="frequency-2" 
+        name="frequency" class="radio-lg">
+        <label for="frequency-2">
+          یا ﻪﺘﻔﻫ ود
         </label>
       </div>
-      <div class="date-radio-item radio-item">
-        <input type="radio" id="date-2-2" name="date-2" class="radio-lg">
-        <label for="date-2-2">
-          ﺎﻫ‌ﻪﺒﻨﺷ
+      <div class="frequency-radio-item radio-item">
+        <input type="radio" id="frequency-3" 
+        name="frequency" class="radio-lg">
+        <label for="frequency-3">
+          یا ﻪﺘﻔﻫ ﻪﺳ
+        </label>
+      </div>
+      <div class="frequency-radio-item radio-item">
+        <input type="radio" id="frequency-4" 
+        name="frequency" class="radio-lg">
+        <label for="frequency-4">
+          هناهام
         </label>
       </div>
     </div>
-  </section>
-
-  <section id="date-btn-wrapper">
-    <div class="container">
-      <div class="time-res">
-        99 / 05 / 12 زا لﺎﺳرا زﺎﻏآ
+    <button class="frequency-btn" disabled>
+      <img src="../../../assets/icons/left-tick.svg" alt="left-tick">
+      <div class="btn-text">
+        ﺪﻌﺑ ﻪﻠﺣﺮﻣ
       </div>
-      <a href="../Plan-date-time/index.html" class="date-btn">
-        <img src="../../../assets/icons/left-tick.svg" alt="left-tick">
-        <div class="btn-text">
-          ﺪﻌﺑ ﻪﻠﺣﺮﻣ
-        </div>
-      </a>
-    </div>
+    </button>
   </section>
-  
 
   <footer>
 <div class="footer-left">
@@ -167,9 +184,9 @@
 </div>
 </footer>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
   <script src="../../../scripts/navbar.js"></script>
   <script src="../../../scripts/radio.js"></script>
-  <script src="../../../scripts/dropdown.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

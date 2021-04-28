@@ -1,0 +1,305 @@
+section#states {
+  margin-top: 100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#states .state {
+  width: 100px;
+  margin: 0 15px;
+  text-align: center;
+}
+section#states .state .state-text {
+  margin-top: 10px;
+  color: #7B7B7B;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+}
+section#states .state.active .state-text {
+  color: #71B83E;
+}
+section#states .state.active img.tick-sm {
+  margin-right: 3px;
+}
+section#states .state-line {
+  width: 70px;
+  height: 1px;
+  background: #7B7B7B;
+}
+
+section#frame-items-section {
+  margin-top: 30px;
+  padding: 0 19px 0 13px;
+}
+section#frame-items-section .frame-title h3 {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  color: #181725;
+}
+section#frame-items-section .frame-items {
+  margin-top: 13px;
+  padding: 15px;
+  background: #EEEEEE;
+  border: 1px solid #F2F3F2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+section#frame-items-section .frame-items .frame-items-title h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-items-section .frame-items .frame-items-header {
+  display: grid;
+  grid-template-columns: 11fr 10fr 10fr;
+  grid-gap: 3.5%;
+  text-align: center;
+  color: #7B7B7B;
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#frame-items-section .frame-items .frame-items-main {
+  padding: 23px 0 39px 0;
+  border-bottom: 1px solid #E2E2E2;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 11fr 10fr 10fr;
+  grid-gap: 3.5%;
+  position: relative;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item img.trash {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .quantity {
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .quantity h4, section#frame-items-section .frame-items .frame-items-main .frame-item .quantity h5 {
+  margin: 0;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .quantity h4 {
+  font-size: 12px;
+  font-weight: 500;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .quantity h5 {
+  font-size: 8px;
+  font-weight: normal;
+  color: #7B7B7B;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .good-buy-btn-quantity-wrapper {
+  text-align: center;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .good-buy-btn-quantity-wrapper button.good-buy-quantity {
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #E2E2E2;
+  border-radius: 10px;
+  background: transparent;
+  color: #7B7B7B;
+  font-size: 18px;
+  padding: 2px 7px;
+  margin-top: 0;
+  margin: auto 0;
+  margin-bottom: 3px;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .good-buy-btn-quantity-wrapper button.good-buy-quantity.active {
+  color: #71B83E;
+  background: #fff;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .good-buy-btn-quantity-wrapper .good-btn-quantity-value {
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .good-buy-btn-quantity-wrapper .good-btn-quantity-value .value {
+  font-size: 16px;
+  line-height: 18px;
+  color: #181725;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .good-buy-btn-quantity-wrapper .good-btn-quantity-value .post {
+  font-size: 9px;
+  margin-top: 4px;
+  color: #000000;
+  opacity: 0.4;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item .good-name {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+section#frame-items-section .frame-items .frame-items-main .frame-item:first-child {
+  margin-top: 0;
+}
+section#frame-items-section .frame-items .frame-items-main .add-item {
+  display: block;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  color: #71B83E;
+}
+section#frame-items-section .frame-items .frame-items-main .add-item .text, section#frame-items-section .frame-items .frame-items-main .add-item img {
+  display: inline-block;
+  vertical-align: middle;
+}
+section#frame-items-section .frame-items .frame-items-main .add-item .text {
+  margin-right: 6px;
+}
+section#frame-items-section .frame-items .frame-items-total {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 5px;
+}
+section#frame-items-section .frame-items .frame-items-total .total-left, section#frame-items-section .frame-items .frame-items-total .total-right {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+section#frame-items-section .frame-items .frame-items-total .total-left h4, section#frame-items-section .frame-items .frame-items-total .total-left h5 {
+  margin: 0;
+}
+section#frame-items-section .frame-items .frame-items-total .total-left h4 {
+  font-weight: 500;
+  font-size: 12px;
+}
+section#frame-items-section .frame-items .frame-items-total .total-left h5 {
+  font-size: 8px;
+  color: #7B7B7B;
+}
+section#frame-items-section .frame-items .frame-items-total .total-right {
+  text-align: right;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section#frame-items-section .frame-items-footer {
+  margin-top: 11px;
+  padding: 11px 25px;
+  background: rgba(247, 165, 147, 0.25);
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+}
+
+section#frame-radio {
+  margin-top: 55px;
+  padding: 0 16px;
+}
+section#frame-radio .frame-radio-title {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+}
+section#frame-radio .frame-item {
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 11px 15px;
+  position: relative;
+}
+section#frame-radio .frame-item .content {
+  display: flex;
+}
+section#frame-radio .frame-item .content input {
+  flex-basis: 0%;
+  max-width: 0%;
+}
+section#frame-radio .frame-item .content label {
+  flex-basis: 87%;
+  max-width: 87%;
+  text-align: right;
+}
+section#frame-radio .frame-item .content label .top {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-radio .frame-item .content label .middle {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-radio .frame-item .content label .bottom {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+section#frame-radio .frame-item .content label .gray {
+  color: #7B7B7B;
+}
+section#frame-radio .frame-item .content label::after {
+  right: -10px;
+}
+section#frame-radio .frame-item .content label::before {
+  right: -16px;
+}
+section#frame-radio .frame-item .frame-icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 20px;
+  left: 15px;
+}
+section#frame-radio .frame-item .frame-icons img {
+  margin-top: 14px;
+}
+section#frame-radio .frame-add-item {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #71B83E;
+}
+section#frame-radio .frame-add-item .text, section#frame-radio .frame-add-item img {
+  display: inline-block;
+  color: #71B83E;
+  vertical-align: middle;
+}
+section#frame-radio .frame-add-item .text {
+  margin-right: 6px;
+}
+
+section#frame-btn-wrapper {
+  padding: 30px 14px 25px 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+}
+section#frame-btn-wrapper a.date-btn {
+  display: block;
+  background: #71B83E;
+  border-radius: 16px;
+  padding: 26px 16px;
+  border-width: 0px;
+}
+section#frame-btn-wrapper a.date-btn .btn-text {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFF9FF;
+}/*# sourceMappingURL=style.css.map */

@@ -53,17 +53,18 @@ section#date-btn-wrapper .time-res {
   line-height: 18px;
   margin-bottom: 7px;
 }
-section#date-btn-wrapper button.date-btn {
+section#date-btn-wrapper a.date-btn {
+  display: block;
   width: 100%;
   background: #71B83E;
   border-radius: 16px;
   padding: 26px 16px;
   border-width: 0px;
 }
-section#date-btn-wrapper button.date-btn img {
+section#date-btn-wrapper a.date-btn img {
   float: left;
 }
-section#date-btn-wrapper button.date-btn .btn-text {
+section#date-btn-wrapper a.date-btn .btn-text {
   font-size: 16px;
   line-height: 18px;
   text-align: center;

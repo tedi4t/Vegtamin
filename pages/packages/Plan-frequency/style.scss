@@ -1,0 +1,92 @@
+$gray: #7B7B7B;
+$green: #71B83E;
+
+section#states {
+  margin-top: 100px;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .state {
+    width: 100px;
+    margin: 0 15px;
+    text-align: center;
+
+    .state-text {
+      margin-top: 10px;
+      color: $gray;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 20px;
+    }
+  }
+
+  .state.active {
+    .state-text {
+      color: $green;
+    }
+
+    img.tick-sm {
+      margin-right: 3px;
+    }
+  }
+
+  .state-line {
+    width: 70px;
+    height: 1px;
+    background: $gray;
+    // border: 1px solid $gray;
+  }
+}
+
+section#frequency {
+  margin-top: 60px;
+  padding: 0 20px 0 12px;
+
+  .frequency-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+  }
+
+  .frequency-radio-group {
+    margin-top: 20px;
+  
+    .frequency-radio-item {
+      padding: 25px;
+      margin-top: 10px;
+      border: 1px solid #DADADA;
+      box-sizing: border-box;
+      border-radius: 10px;
+      text-align: right;
+
+      label {
+        margin-right: 35px;
+      }
+    }
+  }
+
+  button.frequency-btn {
+    cursor: pointer;
+    margin-top: 50px;
+    width: 100%;
+    background: $green;
+    border-radius: 16px;
+    padding: 26px 16px;
+    border-width: 0px;
+
+    img {
+      float: left;
+    }
+
+    .btn-text {
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      color: #FFF9FF;
+    }
+  }
+}

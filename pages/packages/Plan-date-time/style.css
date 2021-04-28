@@ -1,0 +1,105 @@
+section#states {
+  margin-top: 100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#states .state {
+  width: 100px;
+  margin: 0 15px;
+  text-align: center;
+}
+section#states .state .state-text {
+  margin-top: 10px;
+  color: #7B7B7B;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+}
+section#states .state.active .state-text {
+  color: #71B83E;
+}
+section#states .state.active img.tick-sm {
+  margin-right: 3px;
+}
+section#states .state-line {
+  width: 70px;
+  height: 1px;
+  background: #7B7B7B;
+}
+
+section#date-1, section#date-2, section#date-3 {
+  margin-top: 60px;
+  padding: 0 20px 0 14px;
+}
+section#date-1 .date-title, section#date-2 .date-title, section#date-3 .date-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  position: relative;
+}
+section#date-1 .date-title img.tick-down, section#date-2 .date-title img.tick-down, section#date-3 .date-title img.tick-down {
+  position: absolute;
+  left: 10px;
+}
+section#date-1 .date-radio-group, section#date-2 .date-radio-group, section#date-3 .date-radio-group {
+  margin-top: 20px;
+}
+section#date-1 .date-radio-group .date-radio-item, section#date-2 .date-radio-group .date-radio-item, section#date-3 .date-radio-group .date-radio-item {
+  padding: 25px;
+  margin-top: 10px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: right;
+}
+section#date-1 .date-radio-group .date-radio-item label, section#date-2 .date-radio-group .date-radio-item label, section#date-3 .date-radio-group .date-radio-item label {
+  margin-right: 35px;
+}
+
+section#date-2, section#date-3 {
+  margin-top: 50px;
+}
+section#date-2 .date-radio-group, section#date-3 .date-radio-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 14px;
+}
+section#date-2 .date-radio-group .date-radio-item, section#date-3 .date-radio-group .date-radio-item {
+  margin-top: 0;
+}
+section#date-btn-wrapper {
+  padding: 30px 14px 25px 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+}
+section#date-btn-wrapper .time-res {
+  text-align: right;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 7px;
+}
+section#date-btn-wrapper a.date-btn {
+  display: block;
+  width: 100%;
+  background: #71B83E;
+  border-radius: 16px;
+  padding: 26px 16px;
+  border-width: 0px;
+}
+section#date-btn-wrapper a.date-btn img {
+  float: left;
+}
+section#date-btn-wrapper a.date-btn .btn-text {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFF9FF;
+}/*# sourceMappingURL=style.css.map */

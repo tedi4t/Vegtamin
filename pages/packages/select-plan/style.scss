@@ -157,8 +157,8 @@ section#goods {
         }
 
         .good-buy-info {
-          flex-basis: 70%;
-          max-width: 70%;
+          flex-basis: 50%;
+          max-width: 50%;
 
           .good-name {
             font-size: 12px;
@@ -206,6 +206,7 @@ section#goods {
       border-color: $green;
 
       .good-tick-active {
+        display: block;
         position: absolute;
         top: 0;
         left: 0;
@@ -213,6 +214,14 @@ section#goods {
         transform: translateY(-50%) translateX(-50%);
         border-radius: 30px;
         padding: 2px 3px 0 3px;
+      }
+
+      .good-buy-btn-wrapper {
+        display: none;
+      }
+
+      .good-buy-btn-quantity-wrapper {
+        display: block;
       }
     }
 
@@ -240,14 +249,16 @@ section#date-btn-wrapper {
   }
 
   button.date-btn {
-    width: 100%;
+    display: block;
     background: $green;
     border-radius: 16px;
     padding: 26px 16px;
     border-width: 0px;
+    position: relative;
   
     img {
-      float: left;
+      position: absolute;
+      left: 16px;
     }
   
     .btn-text {
@@ -331,8 +342,8 @@ section#good-overlay-section {
       display: flex;
 
       .good-buy-btn-quantity-wrapper {
-        flex-basis: 30%;
-        max-width: 30%;
+        flex-basis: 50%;
+        max-width: 50%;
         text-align: right;
         display: flex;
         justify-content: flex-end;
@@ -433,9 +444,10 @@ section#good-overlay-section {
 }
 
 section#good-overlay-wrapper {
+  display: none;
   padding: 10px 4px 17px 4px;
   position: fixed;
-  bottom: 120px;
+  bottom: 0;
   left: 0;
   right: 0;
   background: #fff;
@@ -459,6 +471,7 @@ section#good-overlay-wrapper {
     }
 
     .good-name {
+      color: #fff;
       text-align: center;
       display: grid;
       align-items: center;
