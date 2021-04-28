@@ -66,7 +66,8 @@ section#header {
       margin-top: 20px;
     }
 
-    button.header-btn {
+    a.header-btn {
+      display: inline-block;
       background: $green;
       text-align: center;
       padding: 7px 20px 8px 20px;
@@ -136,7 +137,8 @@ section#selector-1, section#selector-2, section#selector-3 {
     font-weight: normal;
   }
 
-  button.selector-btn {
+  a.selector-btn {
+    display: inline-block;
     margin-top: 100px;
     padding: 7px 47px;
     border: 1.5px solid #71B83E;
@@ -159,8 +161,12 @@ section#selector-1 {
   }
 }
 
-section#selector-2 {
+section#selector-3 {
   display: block;
+}
+
+section#selector-2 {
+  // display: block;
 
   .cards {
     margin-top: 70px;
@@ -201,6 +207,7 @@ section#selector-2 {
         }
 
         .arrow {
+          display: block;
           margin-right: 10px;
 
           img {
@@ -298,6 +305,7 @@ section#homepage-goods {
 
   .good-block {
     margin-top: 38px;
+    position: relative;
 
     .good-block-title {
       font-weight: bold;
@@ -309,46 +317,51 @@ section#homepage-goods {
       margin-right: 15px;
     }
 
-    .good-images {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 25px;
+    .goods-block-wrapper {
+      overflow-y: scroll;
 
-      .good-img {
-        flex-basis: 33.3333%;
-        max-width: 33.33333%;
-        padding: 10px;
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
+      .goods-block {
+        margin-top: 25px;
+        width: 167%;
+        left: -50%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+        justify-content: flex-start;
+        align-content: center;
+        transform: translateX(-20%);
 
-      .good-img:last-child {
-        border-right-width: 0px;
-      }
-    }
+        .good {
+          flex-basis: 33%;
 
-    .good-titles {
-      display: flex;
-      flex-wrap: wrap;
-
-      .good-title {
-        flex-basis: 33.3333%;
-        max-width: 33.33333%;
-
-        h3 {
-          font-weight: 500;
-          font-size: 12px;
-          line-height: 36px;
-          text-align: center;
-          margin-top: 0;
+          .good-img {
+            width: 100%;
+            max-width: 150px;
+            text-align: center;
+            padding: 10px;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+          }
+    
+          .good-img:first-child {
+            border-left: 1px solid rgba(0, 0, 0, 0.2);
+          }
+    
+          .good-title {
+            
+    
+            h3 {
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 36px;
+              text-align: center;
+              margin-top: 0;
+            }
+          }
         }
       }
     }
   }
 
   .goods-btn {
+    display: inline-block;
     margin-top: 50px;
     font-weight: 500;
     font-size: 14px;
@@ -495,7 +508,8 @@ section#calendar {
       color: #000;
     }
 
-    button.calendar-btn {
+    a.calendar-btn {
+      display: inline-block;
       font-weight: 500;
       font-size: 14px;
       line-height: 30px;

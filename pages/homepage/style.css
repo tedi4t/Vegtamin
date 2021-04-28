@@ -56,7 +56,8 @@ section#header .header-info h4 {
 section#header .header-info h5 {
   margin-top: 20px;
 }
-section#header .header-info button.header-btn {
+section#header .header-info a.header-btn {
+  display: inline-block;
   background: #71B83E;
   text-align: center;
   padding: 7px 20px 8px 20px;
@@ -120,7 +121,8 @@ section#selector-1 .selector-title, section#selector-2 .selector-title, section#
   margin-top: 45px;
   font-weight: normal;
 }
-section#selector-1 button.selector-btn, section#selector-2 button.selector-btn, section#selector-3 button.selector-btn {
+section#selector-1 a.selector-btn, section#selector-2 a.selector-btn, section#selector-3 a.selector-btn {
+  display: inline-block;
   margin-top: 100px;
   padding: 7px 47px;
   border: 1.5px solid #71B83E;
@@ -138,9 +140,10 @@ section#selector-1 img {
   width: 100%;
 }
 
-section#selector-2 {
+section#selector-3 {
   display: block;
 }
+
 section#selector-2 .cards {
   margin-top: 70px;
 }
@@ -176,6 +179,7 @@ section#selector-2 .cards .card .card-info h5 {
   color: #344356;
 }
 section#selector-2 .cards .card .card-info .arrow {
+  display: block;
   margin-right: 10px;
 }
 section#selector-2 .cards .card .card-info .arrow img {
@@ -252,6 +256,7 @@ section#homepage-goods .goods-title {
 }
 section#homepage-goods .good-block {
   margin-top: 38px;
+  position: relative;
 }
 section#homepage-goods .good-block .good-block-title {
   font-weight: bold;
@@ -262,32 +267,32 @@ section#homepage-goods .good-block .good-block-title {
   text-align: right;
   margin-right: 15px;
 }
-section#homepage-goods .good-block .good-images {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 25px;
+section#homepage-goods .good-block .goods-block-wrapper {
+  overflow-y: scroll;
 }
-section#homepage-goods .good-block .good-images .good-img {
-  flex-basis: 33.3333%;
-  max-width: 33.33333%;
+section#homepage-goods .good-block .goods-block-wrapper .goods-block {
+  margin-top: 25px;
+  width: 167%;
+  left: -50%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  transform: translateX(-20%);
+}
+section#homepage-goods .good-block .goods-block-wrapper .goods-block .good {
+  flex-basis: 33%;
+}
+section#homepage-goods .good-block .goods-block-wrapper .goods-block .good .good-img {
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
   padding: 10px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-section#homepage-goods .good-block .good-images .good-img:last-child {
-  border-right-width: 0px;
+section#homepage-goods .good-block .goods-block-wrapper .goods-block .good .good-img:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
-section#homepage-goods .good-block .good-titles {
-  display: flex;
-  flex-wrap: wrap;
-}
-section#homepage-goods .good-block .good-titles .good-title {
-  flex-basis: 33.3333%;
-  max-width: 33.33333%;
-}
-section#homepage-goods .good-block .good-titles .good-title h3 {
+section#homepage-goods .good-block .goods-block-wrapper .goods-block .good .good-title h3 {
   font-weight: 500;
   font-size: 12px;
   line-height: 36px;
@@ -295,6 +300,7 @@ section#homepage-goods .good-block .good-titles .good-title h3 {
   margin-top: 0;
 }
 section#homepage-goods .goods-btn {
+  display: inline-block;
   margin-top: 50px;
   font-weight: 500;
   font-size: 14px;
@@ -423,7 +429,8 @@ section#calendar .calendar-text .calendar-title {
   line-height: 36px;
   color: #000;
 }
-section#calendar .calendar-text button.calendar-btn {
+section#calendar .calendar-text a.calendar-btn {
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 30px;
