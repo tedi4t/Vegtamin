@@ -183,6 +183,7 @@ section#frame-items-section {
       
 
       .add-item {
+        display: block;
         margin-top: 25px;
         font-weight: 500;
         font-size: 12px;
@@ -336,6 +337,7 @@ section#frame-radio {
 
     .text, img {
       display: inline-block;
+      color: #71B83E;
       vertical-align: middle;
     }
 
@@ -354,8 +356,9 @@ section#frame-btn-wrapper {
   z-index: 1000;
   background: #fff;
 
-  button.date-btn {
-    width: 100%;
+  a.date-btn {
+    display: block;
+    // width: 100%;
     background: $green;
     border-radius: 16px;
     padding: 26px 16px;
