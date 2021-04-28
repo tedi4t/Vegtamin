@@ -47,7 +47,8 @@ section#wallet .wallet-quantity .text {
   font-size: 16px;
   letter-spacing: 0.1em;
 }
-section#wallet button.wallet-btn {
+section#wallet a.wallet-btn {
+  display: inline-block;
   margin-top: 25px;
   border: 1px solid #71B83E;
   box-sizing: border-box;
@@ -57,19 +58,20 @@ section#wallet button.wallet-btn {
   color: #71B83E;
   padding: 10px 40px;
 }
-section#wallet .wallet-prev {
+section#wallet a.wallet-prev {
+  display: block;
   margin-top: 22px;
   display: flex;
   justify-content: center;
 }
-section#wallet .wallet-prev img.tick-left, section#wallet .wallet-prev .text {
+section#wallet a.wallet-prev img.tick-left, section#wallet a.wallet-prev .text {
   display: flex;
   align-items: center;
 }
-section#wallet .wallet-prev img.tick-left {
+section#wallet a.wallet-prev img.tick-left {
   margin-right: 12px;
 }
-section#wallet .wallet-prev .text {
+section#wallet a.wallet-prev .text {
   font-weight: 800;
   font-size: 12px;
   color: #282829;

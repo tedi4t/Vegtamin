@@ -23,28 +23,32 @@ section#return-back {
 
 section#me {
   margin-top: 35px;
-  padding: 22px 40px 25px 16;
-  background: #F2F3F2;
-  border-radius: 18px;
-  text-align: right;
-  position: relative;
+  padding: 0 16px;
+  
+  .me-items {
+    padding: 22px 35px 25px 16px;
+    background: #F2F3F2;
+    border-radius: 18px;
+    text-align: right;
+    position: relative;
 
-  .name {
-    font-weight: 800;
-    font-size: 14px;
-  }
+    .name {
+      font-weight: 800;
+      font-size: 14px;
+    }
 
-  .desc {
-    margin-top: 18px;
-    font-weight: normal;
-    font-size: 14px;
-    color: #7C7C7C;
-  }
+    .desc {
+      margin-top: 18px;
+      font-weight: normal;
+      font-size: 14px;
+      color: #7C7C7C;
+    }
 
-  img.edit {
-    position: absolute;
-    left: 16px;
-    top: 24px;
+    img.edit {
+      position: absolute;
+      left: 16px;
+      top: 24px;
+    }
   }
 }
 
@@ -56,6 +60,7 @@ section#settings {
     padding: 22px 47px 20px 37px;
     display: flex;
     justify-content: flex-end;
+    color: #000;
 
     img.tick-left {
       margin-right: auto;

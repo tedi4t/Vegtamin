@@ -58,7 +58,8 @@ section#wallet {
     }
   }
 
-  button.wallet-btn {
+  a.wallet-btn {
+    display: inline-block;
     margin-top: 25px;
     border: 1px solid #71B83E;
     box-sizing: border-box;
@@ -69,7 +70,8 @@ section#wallet {
     padding: 10px 40px;
   }
 
-  .wallet-prev {
+  a.wallet-prev {
+    display: block;
     margin-top: 22px;
     display: flex;
     justify-content: center;

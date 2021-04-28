@@ -12,23 +12,26 @@ section#return-back .text {
 }
 section#me {
   margin-top: 35px;
-  padding: 22px 40px 25px 16;
+  padding: 0 16px;
+}
+section#me .me-items {
+  padding: 22px 35px 25px 16px;
   background: #F2F3F2;
   border-radius: 18px;
   text-align: right;
   position: relative;
 }
-section#me .name {
+section#me .me-items .name {
   font-weight: 800;
   font-size: 14px;
 }
-section#me .desc {
+section#me .me-items .desc {
   margin-top: 18px;
   font-weight: normal;
   font-size: 14px;
   color: #7C7C7C;
 }
-section#me img.edit {
+section#me .me-items img.edit {
   position: absolute;
   left: 16px;
   top: 24px;
@@ -42,6 +45,7 @@ section#settings .setting-item {
   padding: 22px 47px 20px 37px;
   display: flex;
   justify-content: flex-end;
+  color: #000;
 }
 section#settings .setting-item img.tick-left {
   margin-right: auto;

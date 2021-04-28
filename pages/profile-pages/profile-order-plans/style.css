@@ -37,6 +37,7 @@ section#orders-1 .add-order img {
   margin-left: 6px;
 }
 section#orders-1 .orders .order {
+  display: block;
   background: rgba(238, 238, 238, 0.6);
   border: 1px solid #F2F3F2;
   box-sizing: border-box;
@@ -44,6 +45,7 @@ section#orders-1 .orders .order {
   padding: 0 20px;
   position: relative;
   margin-top: 8px;
+  color: #000;
 }
 section#orders-1 .orders .order .order-header {
   padding: 13px 0;
@@ -74,12 +76,8 @@ section#orders-1 .orders .order .order-header .highlighted-wrapper .highlighted 
   width: auto;
   text-align: center;
   display: inline-block;
-}
-section#orders-1 .orders .order .order-header .highlighted-wrapper .highlighted.bg-blue {
   background: rgba(183, 223, 245, 0.25);
-}
-section#orders-1 .orders .order .order-header .highlighted-wrapper .highlighted.bg-pink {
-  background: rgba(247, 165, 147, 0.25);
+  border-width: 0;
 }
 section#orders-1 .orders .order .order-header .title-1, section#orders-1 .orders .order .order-header .title-2 {
   font-weight: 500;
@@ -131,6 +129,10 @@ section#orders-1 .orders .order .order-main .col-3 {
 }
 section#orders-1 .orders .order.unactive {
   opacity: 0.6;
+}
+section#orders-1 .orders .order.unactive .highlighted {
+  background: rgba(247, 165, 147, 0.25) !important;
+  border-width: 0 !important;
 }
 
 section#plan-items-1 {

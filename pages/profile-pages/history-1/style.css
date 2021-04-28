@@ -34,6 +34,7 @@ section#history-selectors .selectors .selector-wrapper {
   margin-right: 14px;
 }
 section#history-selectors .selectors .selector-wrapper .selector {
+  color: #000;
   padding: 7px 18px;
   font-weight: normal;
   font-size: 12px;
@@ -53,6 +54,8 @@ section#history-items-section {
   padding: 0 16px;
 }
 section#history-items-section .history-items .item {
+  display: block;
+  color: #000;
   margin-top: 7px;
   background: rgba(238, 238, 238, 0.6);
   border: 1px solid #F2F3F2;

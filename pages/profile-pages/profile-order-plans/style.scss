@@ -48,6 +48,7 @@ section#orders-1 {
 
 
     .order {
+      display: block;
       background: rgba(238, 238, 238, 0.6);
       border: 1px solid #F2F3F2;
       box-sizing: border-box;
@@ -55,6 +56,7 @@ section#orders-1 {
       padding: 0 20px;
       position: relative;
       margin-top: 8px;
+      color: #000;
 
       .order-header {
         padding: 13px 0;
@@ -87,15 +89,9 @@ section#orders-1 {
             width: auto;
             text-align: center;
             display: inline-block;
-          }
-
-          .highlighted.bg-blue {
             background: rgba(183, 223, 245, 0.25);
-          }
-
-          .highlighted.bg-pink {
-            background: rgba(247, 165, 147, 0.25);
-          }
+            border-width: 0;
+          }          
         }
 
         .title-1, .title-2 {
@@ -168,6 +164,11 @@ section#orders-1 {
 
     .order.unactive {
       opacity: 0.6;
+
+      .highlighted {
+        background: rgba(247, 165, 147, 0.25)!important;
+        border-width: 0!important;
+      }
     }
   }
 }
