@@ -84,7 +84,8 @@ section#submit-btn {
   margin-top: 30px;
   padding: 0 16px;
 }
-section#submit-btn button {
+section#submit-btn a {
+  display: block;
   background: #71B83E;
   border-radius: 16px;
   text-align: center;
