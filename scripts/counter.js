@@ -13,7 +13,7 @@ $('.good-buy-btn-quantity-wrapper .good-buy-quantity').click(function() {
   $(this)
     .parent()
     .children('.good-buy-quantity.minus')
-    .attr('disabled', value === 1 ? true : false);
+    .attr('disabled', (value === 1 && !addItem) ? true : false);
 
   if (addItem || value !== 1) {
     valueItem.html(addItem ? value + 1 : value - 1);
