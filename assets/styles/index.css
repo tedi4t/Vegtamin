@@ -52,4 +52,7 @@ button:disabled {
   .container {
     width: 83.3333333333%;
   }
+}
+.button-down {
+  position: sticky !important;
 }/*# sourceMappingURL=index.css.map */
