@@ -9,7 +9,8 @@ section#success-message h3.success-text {
   font-size: 12px;
   line-height: 24px;
 }
-section#success-message button.success-btn {
+section#success-message a.success-btn {
+  display: inline-block;
   margin-top: 80px;
   background: #71B83E;
   border-radius: 12px;
