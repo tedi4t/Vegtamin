@@ -41,4 +41,15 @@ $('section#good-overlay-section button.good-buy-btn').click(function() {
   $('section#date-btn-wrapper').css('display', 'none');
   $('section#good-overlay-wrapper').css('display', 'block');
   hideGoodOverlay();
+
+  const overlayQuantity = $('section#good-overlay-section .good-btn-quantity-value .value')
+    .html();
+
+  $(activePackage)
+    .children('.good-buy')
+    .children('.good-buy-btn-quantity-wrapper')
+    .children()
+    .children('.good-btn-quantity-value')
+    .children('.value')
+    .html(overlayQuantity)
 })
