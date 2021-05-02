@@ -184,6 +184,19 @@ section#plan-items-1 {
     text-align: right;
   }
 
+  .add-order {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: $green;
+
+    img {
+      margin-left: 6px;
+    }
+  }
+
   .plan-items-wrapper {
     margin-top: 14px;
     background: rgba(238, 238, 238, 0.6);

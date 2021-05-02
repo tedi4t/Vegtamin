@@ -145,6 +145,17 @@ section#plan-items-1 .plan-header {
   font-size: 14px;
   text-align: right;
 }
+section#plan-items-1 .add-order {
+  display: flex;
+  flex-wrap: wrap;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #71B83E;
+}
+section#plan-items-1 .add-order img {
+  margin-left: 6px;
+}
 section#plan-items-1 .plan-items-wrapper {
   margin-top: 14px;
   background: rgba(238, 238, 238, 0.6);
