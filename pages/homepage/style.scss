@@ -318,7 +318,36 @@ section#homepage-goods {
     }
 
     .goods-block-wrapper {
-      overflow-y: scroll;
+      overflow: hidden;
+      position: relative;
+
+      .left-tick-carousel, .right-tick-carousel {
+        width: 24px;
+        padding: 7px 7px 4px 7px;
+        border: 1px solid black;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 5;
+        cursor: pointer;
+        background: #fff;
+
+        img {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          margin: 0;
+        }
+      }
+
+      .left-tick-carousel {
+        left: 0;
+      }
+
+      .right-tick-carousel {
+        right: 0;
+      }
 
       .goods-block {
         margin-top: 25px;
@@ -328,6 +357,7 @@ section#homepage-goods {
         justify-content: flex-start;
         align-content: center;
         transform: translateX(-20%);
+        transition-duration: .5s;
 
         .good {
           flex-basis: 33%;
@@ -338,10 +368,7 @@ section#homepage-goods {
             text-align: center;
             padding: 10px;
             border-right: 1px solid rgba(0, 0, 0, 0.2);
-          }
-    
-          .good-img:first-child {
-            border-left: 1px solid rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
           }
     
           .good-title {
