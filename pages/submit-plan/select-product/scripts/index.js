@@ -44,3 +44,37 @@ $('button.good-buy-btn').click(function() {
   $('section#good-overlay-wrapper')
     .css('display', 'block');
 })
+
+$('section#choice .item-wrap').click(function() {
+  const classesChoice = $(this).attr('class').split(' ');
+  classesChoice.splice(classesChoice.indexOf('item-wrap'), 1);
+  const className = classesChoice[0];
+  const goodNameSelector = className.split('-')[1];
+  console.log(goodNameSelector);
+
+  $(this)
+    .parent()
+    .children()
+    .children()
+    .removeClass('active');
+
+  $(this)
+    .children()
+    .addClass('active');
+
+  if (goodNameSelector === 'all') {
+    $('section#goods .good-items')
+    .children()
+    .css('display', 'block');
+  } else {
+    $('section#goods .good-items')
+    .children()
+    .each(function() {
+      const classes = $(this).attr('class').split(' ');
+      classes.splice(classes.indexOf('good'), 1);
+      const goodName = classes[0];
+      $(this).css('display', goodName === goodNameSelector ? 'block' : 'none');
+    })
+  }
+
+})
