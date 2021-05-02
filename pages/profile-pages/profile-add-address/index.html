@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../../../assets/styles/index.css">
   <link rel="stylesheet" href="../../../assets/styles/navbar.css">
   <link rel="stylesheet" href="../../../assets/styles/footer.css">
-  <link rel="stylesheet" href="../../../assets/styles/radio.css">
+  <link rel="stylesheet" href="../../../assets/styles/dropdown.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -91,94 +91,54 @@
     <img src="../../../assets/icons/tick-right-gray.svg" alt="tick-right-gray" class="tick-right">
   </section>
 
-  <section class="container" id="wallet">
-    <div class="wallet-title">
+  <section class="container" id="edit-fields">
+    <div class="section-title">
       سردآ ﺶﯾاﺮﯾو
     </div>
 
-    <div class="wallet-name">
-      :ﯽﻠﻌﻓ یدﻮﺟﻮﻣ
-    </div>
-
-    <div class="wallet-quantity">
-      <div class="pre">
-        ناموت
-      </div>
-      <div class="text">
-        102,000
-      </div>
-    </div>
-  </section>
-
-  <section class="container" id="wallet-charge">
-    <div class="wallet-charge-title">
-      ﺪﯿﻨﮐ دراو ار لﻮﭘ ﻒﯿﮐ ژرﺎﺷ یاﺮﺑ ﺮﻈﻧ درﻮﻣ ﻎﻠﺒﻣ
-    </div>
-
-    <div class="input-group">
-      <div class="input-title">
-        غلبم
-      </div>
-      <div class="input-wrapper">
-        <div class="pre">
-          ناموت
+    <div class="fields">
+      <div class="field">
+        <div class="field-title">
+          سردآ مﺎﻧ
         </div>
-        <input type="text" class="input" placeholder="نﺎﻣﻮﺗ 400,000 :ﺎﻠﺜﻣ" id="charge-id">
-      </div>
-    </div>
-    
-
-    <div class="date-radio-group radio-group dropdown-items">
-      <div class="date-radio-item radio-item">
-        <input type="radio" id="date-1-1" name="date-1" class="radio-lg">
-        <label for="date-1-1">
-          <div class="pre">
-            نﺎﻣﻮﺗ راﺰﻫ ﺪﺻ
-          </div>
-          <div class="text">
-            نﺎﻣﻮﺗ
-            100,000
-          </div>
-        </label>
+        <input class="field-body" placeholder="هنوخ">
       </div>
 
-      <div class="date-radio-item radio-item">
-        <input type="radio" id="date-1-2" name="date-1" class="radio-lg">
-        <label for="date-1-2">
-          <div class="pre">
-            نﺎﻣﻮﺗ راﺰﻫ تسیود
-          </div>
-          <div class="text">
-            نﺎﻣﻮﺗ 200,000
-          </div>
-        </label>
+      <div class="field">
+        <div class="field-title">
+          ﯽﺘﺴﭘ ﻖﯿﻗد ﯽﻧﺎﺸﻧ
+        </div>
+        <input class="field-body" placeholder="،ود کﺎﻠﭘ ،ﯽﺑﺮﻏ ﯽﯾﺎﺿر ﻪﭼﻮﮐ ،ﯽﺘﺧرد راﻮﻠﺑ ،نﺎﻣداد راﻮﻠﺑ
+.ﮏﯾ ﺪﺣاو">
       </div>
 
-      <div class="date-radio-item radio-item">
-        <input type="radio" id="date-1-3" name="date-1" class="radio-lg">
-        <label for="date-1-3">
-          <div class="pre">
-            نﺎﻣﻮﺗ راﺰﻫ دصیس 
-          </div>
-          <div class="text">
-            نﺎﻣﻮﺗ300,000
-          </div>
-        </label>
+      <div class="field">
+        <div class="field-title">
+          ﯽﺘﺴﭘ ﺪﮐ
+        </div>
+        <input class="field-body" placeholder="14653392538">
+      </div>
+      <div class="field">
+        <div class="field-title">
+          ﻦﻔﻠﺗ هرﺎﻤﺷ
+        </div>
+        <input class="field-body" placeholder="09125592500">
       </div>
     </div>
   </section>
 
-  <section class="container" id="frame-btn-wrapper">
-    <button class="date-btn">
-      <div class="btn-text">
-        تخادرپ
-      </div>
+  <section class="container" id="buttons">
+    <button class="success">
+      تاﺮﯿﯿﻐﺗ هﺮﯿﺧذ
+    </button>
+    <button class="fail">
+      وغل
     </button>
   </section>
 
   <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
   <script src="../../../scripts/navbar.js"></script>
-  <script src="../../../scripts/radio.js"></script>
+  <script src="../../../scripts/dropdown.js"></script>
   <script src="./script/index.js"></script>
 </body>
 </html>

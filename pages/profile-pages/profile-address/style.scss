@@ -73,7 +73,9 @@ section#frame-radio {
 
   .frame-add-item-wrapper {
     text-align: center;
-    button.frame-add-item {
+
+    a.frame-add-item {
+      display: inline-block;
       margin: 30px auto 0 auto;
       font-weight: normal;
       font-size: 14px;

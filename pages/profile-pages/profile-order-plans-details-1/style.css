@@ -308,6 +308,7 @@ section#frame-items-section .frame-items .frame-items-main .frame-item:first-chi
   margin-top: 0;
 }
 section#frame-items-section .frame-items .frame-items-main .add-item {
+  display: block;
   margin-top: 25px;
   font-weight: 500;
   font-size: 12px;

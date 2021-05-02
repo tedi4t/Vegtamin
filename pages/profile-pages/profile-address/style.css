@@ -62,7 +62,8 @@ section#frame-radio .frame-item .frame-icons img {
 section#frame-radio .frame-add-item-wrapper {
   text-align: center;
 }
-section#frame-radio .frame-add-item-wrapper button.frame-add-item {
+section#frame-radio .frame-add-item-wrapper a.frame-add-item {
+  display: inline-block;
   margin: 30px auto 0 auto;
   font-weight: normal;
   font-size: 14px;
@@ -73,10 +74,10 @@ section#frame-radio .frame-add-item-wrapper button.frame-add-item {
   border-radius: 12px;
   padding: 10px 30px;
 }
-section#frame-radio .frame-add-item-wrapper button.frame-add-item .text, section#frame-radio .frame-add-item-wrapper button.frame-add-item img {
+section#frame-radio .frame-add-item-wrapper a.frame-add-item .text, section#frame-radio .frame-add-item-wrapper a.frame-add-item img {
   display: inline-block;
   vertical-align: middle;
 }
-section#frame-radio .frame-add-item-wrapper button.frame-add-item .text {
+section#frame-radio .frame-add-item-wrapper a.frame-add-item .text {
   margin-right: 6px;
 }/*# sourceMappingURL=style.css.map */
