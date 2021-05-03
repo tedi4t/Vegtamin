@@ -34,6 +34,7 @@ section#wallet-fields .fields .fields-header {
 section#wallet-fields .fields .fields-header .col-1 {
   flex-basis: 20%;
   max-width: 20%;
+  text-align: center;
 }
 section#wallet-fields .fields .fields-header .col-2 {
   flex-basis: 60%;
