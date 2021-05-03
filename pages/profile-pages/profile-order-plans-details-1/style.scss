@@ -262,6 +262,10 @@ section#frame-items-section {
         font-weight: 500;
         font-size: 12px;
         line-height: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
 
         img.dot {
           margin: 0 10px;

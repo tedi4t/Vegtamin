@@ -63,23 +63,38 @@ $('section#overlays .delete-confirmation .success').click(function() {
   hideOverlays();
 })
 
+$('section#overlays .edit-frequency .fail').click(hideOverlays);
+
 $('section#overlays .edit-frequency .success').click(function() {
-  const checkedInput = 
-    $('section#overlays .edit-frequency .date-radio-group input:checked');
+  $('section#overlays .edit-frequency .date-item').each(function() {
+    const dropdownItems = $(this).children('.dropdown-items');
+    const hidden = dropdownItems.hasClass('hidden-second');
+    let checkedValue;
+    $(dropdownItems)
+      .children()
+      .each(function() {
+        const checked = $(this)
+          .children('input')
+          .prop("checked")
+        if (checked) {
+          checkedValue = $(this)
+            .children('label')
+            .html()
+            .trim();
+        }
+      })
 
-  const checkedLabel = $(checkedInput)
-    .parent()
-    .children('label')
-    .html();
+    const idCounterArr = $(this)
+      .attr('id')
+      .split('');
+    const idCounter = idCounterArr[idCounterArr.length - 1];
 
-  $('section#frame-items-section .frame-items-main .frame-item')
-    .each(function() {
-      $(this)
-        .children('.good-name')
-        .html(checkedLabel)
-    })
+    const textValue = $(`#text-${idCounter}`).html().trim();
 
-  console.log(checkedLabel);
+    const value = checkedValue || textValue;
+    $(`#text-${idCounter}`).html(value)
+  })
 
   hideOverlays();
 })
+

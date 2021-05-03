@@ -1,13 +1,7 @@
 $('.dropdown-toggle').click(function() {
   const dropdownGroup = $(this).parent();
-  console.log(dropdownGroup);
   const dropdownItems = $(dropdownGroup).children('.dropdown-items');
-  console.log(dropdownItems);
   const hidden = dropdownItems.hasClass('hidden');
-
-  console.log('click');
-  console.log(dropdownItems);
-  console.log(hidden);
 
   if (hidden) {
     dropdownItems.css('display', 'block');

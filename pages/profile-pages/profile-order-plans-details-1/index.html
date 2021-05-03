@@ -164,9 +164,16 @@
           <img src="../../../assets/icons/edit-green.svg" alt="edit-green" class="edit">
         </div>
         <h3>
-          (99/05/12 لﺎﺳرا ﻦﯿﻟوا) 
+          <div id="text-3">
+            رصع
+          </div>
+          <div id="text-2">
+            ﺎﻫ‌ﻪﺒﻨﺷود 
+          </div>
           <img src="../../../assets/icons/dot.svg" alt="dot" class="dot">
-          ﺮیا‌ﻪﺘﻔﻫ ود ﻪﻣﺎﻧﺮﺑﺼﻋ ،ﺎﻫ‌ﻪﺒﻨﺷود
+          <div id="text-1">
+            یا‌ﻪﺘﻔﻫ ود ﻪﻣﺎﻧﺮﺑ
+          </div>
         </h3>
       </div>
       <div class="frame-items-header">
@@ -411,14 +418,15 @@
     </div>
 
     <div class="edit-frequency">
-      <div class="date-item">
-        <div class="date-title">
+      <div class="date-item dropdown" id="date-items-1">
+        <div class="date-title dropdown-toggle-overlay">
           <img src="../../../assets/icons/tick-up-green.svg" alt="tick-up-green">
           <h3>
             ﺪﯿﻨﮐ ﺺﺨﺸﻣ ار تﺎﻟﻮﺼﺤﻣ ﻞﯾﻮﺤﺗ زور
           </h3>
+          <h4 class="d-none"></h4>
         </div>
-        <div class="date-radio-group radio-group">
+        <div class="date-radio-group radio-group dropdown-items">
           <div class="date-radio-item radio-item">
             <input type="radio" id="date-2-1" name="date-2" class="radio-lg">
             <label for="date-2-1">
@@ -446,27 +454,63 @@
         </div>
       </div>
 
-      <div class="date-item">
-        <div class="date-title">
-          <img src="../../../assets/icons/tick-down-green.svg" alt="tick-down-green">
-          <h3>
-            ﻞﯾﻮﺤﺗ زور ﺶﯾاﺮﯾو
-          </h3>
-          <h4>
-            ﺎﻫ‌ﻪﺒﻨﺸﮑﯾ
-          </h4>
+      <div class="date-item dropdown" id="date-items-2">
+        <div class="date-title dropdown-toggle-overlay">
+          <img src="../../../assets/icons/tick-up-green.svg" alt="tick-up-green">
+          ﺪﯿﻨﮐ ﺺﺨﺸﻣ ار تﺎﻟﻮﺼﺤﻣ ﻞﯾﻮﺤﺗ زور
+          <h4 class="d-none"></h4>
+        </div>
+        <div class="date-radio-group radio-group dropdown-items">
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="date-3-1" name="date-3" class="radio-lg">
+            <label for="date-3-1">
+              ﺎﻫ‌ﻪﺒﻨﺸﮑﯾ
+            </label>
+          </div>
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="date-3-2" name="date-3" class="radio-lg">
+            <label for="date-3-2">
+              ﺎﻫ‌ﻪﺒﻨﺷ
+            </label>
+          </div>
         </div>
       </div>
 
-      <div class="date-item">
-        <div class="date-title">
-          <img src="../../../assets/icons/tick-down-green.svg" alt="tick-down-green">
-          <h3>
-            ﻞﯾﻮﺤﺗ ﺖﻋﺎﺳ ﺶﯾاﺮﯾو
-          </h3>
-          <h4>
-            رصع
-          </h4>
+      <div class="date-item dropdown" id="date-items-3">
+        <div class="date-title dropdown-toggle-overlay">
+          <img src="../../../assets/icons/tick-up-green.svg" alt="tick-up-green">
+          ﺪﯿﻨﮐ بﺎﺨﺘﻧا ار دﻮﺧ ﺪﯾﺮﺧ ﻪﻣﺎﻧﺮﺑ ﯽﻧﺎﻣز هرود
+          <h4 class="d-none"></h4>
+        </div>
+        <div class="date-radio-group radio-group dropdown-items">
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="frequency-1" 
+            name="frequency" class="radio-lg">
+            <label for="frequency-1">
+              یگتفه
+            </label>
+          </div>
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="frequency-2" 
+            name="frequency" class="radio-lg">
+            <label for="frequency-2">
+              یا ﻪﺘﻔﻫ ود
+            </label>
+          </div>
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="frequency-3" 
+            name="frequency" class="radio-lg">
+            <label for="frequency-3">
+              یا ﻪﺘﻔﻫ ﻪﺳ
+            </label>
+          </div>
+          <div class="date-radio-item radio-item">
+            <input type="radio" id="frequency-4" 
+            name="frequency" class="radio-lg">
+            <label for="frequency-4">
+              هناهام
+            </label>
+          </div>
         </div>
       </div>
 
@@ -484,6 +528,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
   <script src="../../../scripts/navbar.js"></script>
   <script src="../../../scripts/radio.js"></script>
+  <script src="./script/dropdown.js"></script>
   <script src="../../../scripts/dropdown.js"></script>
   <script src="../../../scripts/counter.js"></script>
   <script src="../../../scripts/back.js"></script>
