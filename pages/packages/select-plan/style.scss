@@ -96,8 +96,8 @@ section#goods {
         display: flex;
 
         .good-buy-btn-wrapper {
-          flex-basis: 30%;
-          max-width: 30%;
+          flex-basis: 50%;
+          max-width: 50%;
           display: flex;
           align-items: center;
 
@@ -342,8 +342,8 @@ section#good-overlay-section {
       display: flex;
 
       .good-buy-btn-quantity-wrapper {
-        flex-basis: 50%;
-        max-width: 50%;
+        flex-basis: 30%;
+        max-width: 30%;
         text-align: right;
         display: flex;
         justify-content: flex-end;
@@ -473,8 +473,9 @@ section#good-overlay-wrapper {
     .good-name {
       color: #fff;
       text-align: center;
-      display: grid;
+      display: flex;
       align-items: center;
+      justify-content: center;
       background: #568E2E;
       border-radius: 4px;
       padding: 3px 12px;

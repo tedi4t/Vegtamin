@@ -1,4 +1,5 @@
 let activePackage;
+let totalItems = 0;
 
 function showGoodOverlay() {
   $('section#good-overlay-section .good-overlay-bg').css({
@@ -25,9 +26,28 @@ function hideGoodOverlay() {
 }
 
 // show
-$('section#goods .good').click(function() {
-  activePackage = this;
+$('section#goods .good .good-buy-btn').click(function() {
+  activePackage = $(this)
+    .parent()
+    .parent()
+    .parent();
   showGoodOverlay();
+
+  const name = $(activePackage)
+    .children('.good-heading')
+    .children('.good-info')
+    .children('h3')
+    .html()
+    .trim();
+
+  const imgSrc = $(activePackage)
+    .children('.good-heading')
+    .children('.good-photo')
+    .children('img')
+    .attr('src');
+
+  $('section#good-overlay-section .good-overlay .good-title').html(name);
+  $('section#good-overlay-section .good-overlay img.good-img').attr('src', imgSrc);
 })
 
 // hide
@@ -52,4 +72,28 @@ $('section#good-overlay-section button.good-buy-btn').click(function() {
     .children('.good-btn-quantity-value')
     .children('.value')
     .html(overlayQuantity)
+})
+
+$('.good-items, section#good-overlay-section button.good-buy-btn').click(function() {
+  totalItems = 0;
+
+  $('.good').each(function() {
+    const active = $(this).hasClass('active');
+    if (active) {
+      const amount = parseInt(
+        $(this)
+          .children('.good-buy')
+          .children('.good-buy-btn-quantity-wrapper')
+          .children()
+          .children('.good-btn-quantity-value')
+          .children('.value')
+          .html()
+          .trim()
+        );
+
+      totalItems += amount;
+    }
+  })
+
+  $('#total-items').html(totalItems)
 })
