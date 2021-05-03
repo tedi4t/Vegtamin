@@ -95,10 +95,6 @@ $border-color: #7B7B7B;
       display: inline-block;
       vertical-align: middle;
     }
-
-    img {
-
-    }
   }
 }
 
@@ -116,7 +112,7 @@ $border-color: #7B7B7B;
   transform: translateX(100%);
 
   .close-button {
-
+    text-align: left;
   }
 
   .nav-items {

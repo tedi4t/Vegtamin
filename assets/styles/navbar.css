@@ -81,6 +81,7 @@
   display: inline-block;
   vertical-align: middle;
 }
+
 .navbar-items-block {
   position: fixed;
   left: 15%;
@@ -93,6 +94,9 @@
   padding: 20px 20px 20px 27px;
   text-align: right;
   transform: translateX(100%);
+}
+.navbar-items-block .close-button {
+  text-align: left;
 }
 .navbar-items-block .nav-items {
   list-style: none;

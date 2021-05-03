@@ -282,14 +282,18 @@ section#good-overlay-wrapper .good-overlay .left-tick {
 }
 section#good-overlay-wrapper .good-overlay .good-name {
   color: #fff;
-  text-align: center;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   background: #568E2E;
   border-radius: 4px;
   padding: 3px 12px;
   font-size: 10px;
   line-height: 24px;
+}
+section#good-overlay-wrapper .good-overlay .good-name #total-items {
+  display: inline-block;
 }
 section#good-overlay-wrapper .good-overlay .good-desc {
   display: grid;

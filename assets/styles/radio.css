@@ -40,4 +40,7 @@
 
 .radio-item.active {
   border-color: #71B83E !important;
+}
+.radio-item.active label::before {
+  background: #71B83E;
 }/*# sourceMappingURL=radio.css.map */

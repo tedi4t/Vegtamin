@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="../../../assets/styles/index.css">
   <link rel="stylesheet" href="../../../assets/styles/navbar.css">
+  <link rel="stylesheet" href="../../../assets/styles/radio.css">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="../../../assets/styles/footer.css">
 </head>
@@ -204,16 +205,16 @@
           <div class="good-info">
             <h3> ﺶﻔﻨﺑ زﺎﯿﭘ</h3>
             <h4>.دﺪﻋ 10 ﺎﺗ 8 لدﺎﻌﻣ ﻮﻠﯿﮐ ﺮﻫ .ﻂﺳﻮﺘﻣ هزاﺪﻧا</h4>
-            <div class="radio-items">
-              <div class="radio-item">
-                <label for="choice1">ددع</label>
-                <input type="radio" id="choice1"
-                 name="choice" value="email">  
+            <div class="radio-items radio-group post-group">
+              <div class="radio-item post-item">
+                <label for="choice1-1" class="post-value">ددع</label>
+                <input class="post-input" type="radio" id="choice1-1"
+                 name="choice1" value="email">  
               </div>
-              <div class="radio-item">
-                <label for="choice2">ولیک</label>
-                <input type="radio" id="choice2"
-                name="choice" value="phone">
+              <div class="radio-item post-item">
+                <label for="choice1-2" class="post-value">ولیک</label>
+                <input class="post-input" type="radio" id="choice1-2"
+                name="choice1" value="phone" checked>
               </div>
             </div>
           </div>
@@ -229,7 +230,7 @@
           </div>
           <div class="good-buy-btn-quantity-wrapper d-none">
             <div>
-              <button class="good-buy-quantity">
+              <button class="good-buy-quantity minus">
                 -
               </button>
               <div class="good-btn-quantity-value">
@@ -240,7 +241,7 @@
                   ﻮﻠﯿﮐ 
                 </div>
               </div>
-              <button class="good-buy-quantity active">
+              <button class="good-buy-quantity plus active">
                 +
               </button>
             </div>
@@ -276,7 +277,7 @@
           </div>
           <div class="good-buy-btn-quantity-wrapper d-none">
             <div>
-              <button class="good-buy-quantity">
+              <button class="good-buy-quantity minus">
                 -
               </button>
               <div class="good-btn-quantity-value">
@@ -287,7 +288,7 @@
                   ﻮﻠﯿﮐ 
                 </div>
               </div>
-              <button class="good-buy-quantity active">
+              <button class="good-buy-quantity plus active">
                 +
               </button>
             </div>
@@ -323,7 +324,7 @@
           </div>
           <div class="good-buy-btn-quantity-wrapper d-none">
             <div>
-              <button class="good-buy-quantity">
+              <button class="good-buy-quantity minus">
                 -
               </button>
               <div class="good-btn-quantity-value">
@@ -334,7 +335,7 @@
                   ﻮﻠﯿﮐ 
                 </div>
               </div>
-              <button class="good-buy-quantity active">
+              <button class="good-buy-quantity plus active">
                 +
               </button>
             </div>
@@ -358,15 +359,15 @@
           <div class="good-info">
             <h3> ﺶﻔﻨﺑ زﺎﯿﭘ</h3>
             <h4>.دﺪﻋ 10 ﺎﺗ 8 لدﺎﻌﻣ ﻮﻠﯿﮐ ﺮﻫ .ﻂﺳﻮﺘﻣ هزاﺪﻧا</h4>
-            <div class="radio-items">
-              <div class="radio-item">
-                <label for="choice1">ددع</label>
-                <input type="radio" id="choice1"
+            <div class="radio-items radio-group post-group">
+              <div class="radio-item post-item">
+                <label for="choice2-1">ددع</label>
+                <input type="radio" id="choice2-1"
                  name="choice" value="email">  
               </div>
-              <div class="radio-item">
-                <label for="choice2">ولیک</label>
-                <input type="radio" id="choice2"
+              <div class="radio-item post-item">
+                <label for="choice2-2">ولیک</label>
+                <input type="radio" id="choice2-2"
                 name="choice" value="phone">
               </div>
             </div>
@@ -383,7 +384,7 @@
           </div>
           <div class="good-buy-btn-quantity-wrapper d-none">
             <div>
-              <button class="good-buy-quantity">
+              <button class="good-buy-quantity minus">
                 -
               </button>
               <div class="good-btn-quantity-value">
@@ -394,7 +395,7 @@
                   ﻮﻠﯿﮐ 
                 </div>
               </div>
-              <button class="good-buy-quantity active">
+              <button class="good-buy-quantity plus active">
                 +
               </button>
             </div>
@@ -422,7 +423,7 @@
         <img src="../../../assets/icons/left-tick.svg" alt="left-tick">
       </div>
       <a href="../Plan-frequency/index.html" class="good-name">
-        لﻮﺼﺤﻣ (2)
+        (<span id = "total-items"></span>) لﻮﺼﺤﻣ
       </a>
       <div class="good-desc">
         ﯽﮕﺘﻔﻫ ﺪﯾﺮﺧ ﻪﻣﺎﻧﺮﺑ هﺪﻫﺎﺸﻣ
@@ -466,5 +467,6 @@
   <script src="../../../scripts/navbar.js"></script>
   <script src="./scripts/index.js"></script>
   <script src="../../../scripts/counter.js"></script>
+  <script src="../../../scripts/radio.js"></script>
 </body>
 </html>

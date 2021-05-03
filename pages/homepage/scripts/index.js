@@ -22,12 +22,12 @@ $('.left-tick-carousel').click(function() {
   const translateX = goodsBlock.css('transform');
   const transformMatrix = translateX.split(', ');
   const currentOffsetX = parseInt(transformMatrix[4]);
-  if (currentOffsetX <= 0 && currentOffsetX > -998) {
-    if (slideOffsetX === undefined) {
-      slideOffsetX = Math.abs(currentOffsetX);
-    }
+  console.log(currentOffsetX);
+  if (slideOffsetX === undefined) {
+    slideOffsetX = Math.abs(currentOffsetX);
+  }
+  if (currentOffsetX <= 0 && currentOffsetX > -slideOffsetX * 2) {
     transformMatrix[4] -= slideOffsetX;
-    console.log(transformMatrix.join(', '))
   
     goodsBlock.css('transform', transformMatrix.join(', '));    
   }
@@ -41,13 +41,12 @@ $('.right-tick-carousel').click(function() {
   const translateX = goodsBlock.css('transform');
   const transformMatrix = translateX.split(', ');
   const currentOffsetX = parseInt(transformMatrix[4]);
-  if (currentOffsetX < 0 && currentOffsetX >= -998) {
-    if (slideOffsetX === undefined) {
-      slideOffsetX = Math.abs(currentOffsetX);
-    }
-  
+  console.log(currentOffsetX);
+  if (slideOffsetX === undefined) {
+    slideOffsetX = Math.abs(currentOffsetX);
+  }
+  if (currentOffsetX < 0 && currentOffsetX >= -slideOffsetX * 2) {  
     transformMatrix[4] = parseInt(transformMatrix[4]) + slideOffsetX;
-    console.log(transformMatrix.join(', '))
   
     goodsBlock.css('transform', transformMatrix.join(', '));
   }

@@ -50,5 +50,9 @@ $green: #71B83E;
 }
 
 .radio-item.active {
+  label::before {
+    background: $green;
+  }
+
   border-color: $green!important;
 }

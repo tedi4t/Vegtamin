@@ -1,4 +1,5 @@
 let found = false;
+let totalItems = 0;
 
 $('#search #search-input').change(function() {
   found = $(this).val().length === 0 ? true : false;
@@ -76,5 +77,45 @@ $('section#choice .item-wrap').click(function() {
       $(this).css('display', goodName === goodNameSelector ? 'block' : 'none');
     })
   }
+})
 
+$('.good-items').click(function() {
+  totalItems = 0;
+
+  $('.good').each(function() {
+    const active = $(this).hasClass('active');
+    if (active) {
+      const amount = parseInt(
+        $(this)
+          .children('.good-buy')
+          .children('.good-buy-btn-quantity-wrapper')
+          .children()
+          .children('.good-btn-quantity-value')
+          .children('.value')
+          .html()
+          .trim()
+        );
+
+      totalItems += amount;
+    }
+  })
+
+  $('#total-items').html(totalItems)
+})
+
+$('.post-item').click(function() {
+  const postItemVal = $(this)
+    .children('label')
+    .html()
+  $(this)
+    .parent()
+    .parent()
+    .parent()
+    .parent()
+    .children('.good-buy')
+    .children('.good-buy-btn-quantity-wrapper')
+    .children()
+    .children('.good-btn-quantity-value')
+    .children('.post')
+    .html(postItemVal);
 })

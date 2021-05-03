@@ -340,14 +340,19 @@ section#good-overlay-wrapper {
 
     .good-name {
       color: #fff;
-      text-align: center;
-      display: grid;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
       background: #568E2E;
       border-radius: 4px;
       padding: 3px 12px;
       font-size: 10px;
       line-height: 24px;
+
+      #total-items {
+        display: inline-block;
+      }
     }
 
     .good-desc {
