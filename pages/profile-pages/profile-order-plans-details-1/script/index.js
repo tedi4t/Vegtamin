@@ -98,3 +98,14 @@ $('section#overlays .edit-frequency .success').click(function() {
   hideOverlays();
 })
 
+// check window height
+const windowHeight = $(window).height();
+const overlays = $('section#overlays').children();
+console.log(windowHeight);
+console.log(overlays);
+overlays.each(function() {
+  const height = $(this).height();
+  if (height > windowHeight) {
+    $(this).css('top', '0');
+  }
+})
