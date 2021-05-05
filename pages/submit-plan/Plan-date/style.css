@@ -79,7 +79,7 @@ section#date-btn-wrapper {
   z-index: 1000;
   background: #fff;
 }
-section#date-btn-wrapper a.date-btn {
+section#date-btn-wrapper button.date-btn {
   display: block;
   width: 100%;
   background: #71B83E;
@@ -87,10 +87,10 @@ section#date-btn-wrapper a.date-btn {
   padding: 26px 16px;
   border-width: 0px;
 }
-section#date-btn-wrapper a.date-btn img {
+section#date-btn-wrapper button.date-btn img {
   float: left;
 }
-section#date-btn-wrapper a.date-btn .btn-text {
+section#date-btn-wrapper button.date-btn .btn-text {
   font-size: 16px;
   line-height: 18px;
   text-align: center;
