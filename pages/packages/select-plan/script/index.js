@@ -58,12 +58,25 @@ $('section#good-overlay-section .good-overlay img.close-btn, section#good-overla
 // add active
 $('section#good-overlay-section button.good-buy-btn').click(function() {
   $(activePackage).addClass('active');
+  $(activePackage)
+    .children('.good-buy')
+    .children('.good-buy-btn-wrapper')
+    .css('display', 'none')
+  
+  $(activePackage)
+    .children('.good-buy')
+    .children('.good-buy-btn-quantity-wrapper')
+    .css('display', 'block')
+
   $('section#date-btn-wrapper').css('display', 'none');
   $('section#good-overlay-wrapper').css('display', 'block');
   hideGoodOverlay();
 
   const overlayQuantity = $('section#good-overlay-section .good-btn-quantity-value .value')
     .html();
+
+  $('section#good-overlay-section .good-btn-quantity-value .value')
+    .html('1');
 
   $(activePackage)
     .children('.good-buy')
