@@ -1,7 +1,7 @@
 $('.navbar-collapse').click(() => {
   $('.dark-bg-nav').css({
     "opacity": "0.6",
-    "z-index": "20",
+    "z-index": "1100",
   })
 
   $('.navbar-items-block').css({
