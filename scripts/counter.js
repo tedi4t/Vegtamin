@@ -10,10 +10,10 @@ $('.good-buy-btn-quantity-wrapper .good-buy-quantity').click(function() {
   const valueStr = valueItem.html();
   
   const value = parseInt(valueStr);
-  $(this)
-    .parent()
-    .children('.good-buy-quantity.minus')
-    .attr('disabled', (value === 1 && !addItem) ? true : false);
+  // $(this)
+  //   .parent()
+  //   .children('.good-buy-quantity.minus')
+  //   .attr('disabled', (value === 1 && !addItem) ? true : false);
 
   if (!addItem && value === 1) {
     const goodElement = $(this)
