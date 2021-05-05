@@ -162,7 +162,7 @@ section#goods .good-items .good .good-heading .good-photo img {
 }
 section#goods .good-items .good .good-buy {
   margin-top: 10px;
-  width: 68%;
+  width: 70%;
   display: flex;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-wrapper {
@@ -198,6 +198,11 @@ section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-b
   display: inline-block;
   text-align: center;
   margin: 0 10px;
+}
+@media screen and (max-width: 768px) {
+  section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-btn-quantity-value {
+    margin: 0 4px;
+  }
 }
 section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-btn-quantity-value .value {
   font-size: 16px;

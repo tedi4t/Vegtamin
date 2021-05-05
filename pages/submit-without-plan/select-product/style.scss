@@ -195,7 +195,7 @@ section#goods {
       }
 
       .good-buy {
-        width: 68%;
+        width: 70%;
         display: flex;
 
         .good-buy-btn-wrapper {
@@ -235,6 +235,10 @@ section#goods {
             display: inline-block;
             text-align: center;
             margin: 0 10px;
+
+            @media screen and (max-width: 768px) {
+              margin: 0 4px;
+            }
             
             .value {
               font-size: 16px;
@@ -341,7 +345,9 @@ section#good-overlay-wrapper {
     .good-name {
       color: #fff;
       text-align: center;
-      display: grid;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
       background: #568E2E;
       border-radius: 4px;

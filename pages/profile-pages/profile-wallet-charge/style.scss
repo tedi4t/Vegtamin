@@ -141,8 +141,9 @@ section#wallet-charge {
 
 
 section#frame-btn-wrapper {
+  margin-top: 5px;
   padding: 30px 14px 25px 14px;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;
@@ -150,6 +151,7 @@ section#frame-btn-wrapper {
   background: #fff;
 
   button.date-btn {
+    display: block;
     width: 100%;
     background: $green;
     border-radius: 16px;
