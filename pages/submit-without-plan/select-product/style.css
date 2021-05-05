@@ -133,6 +133,7 @@ section#goods .good-items .good .good-heading .good-info h4 {
   font-size: 11px;
   line-height: 20px;
   color: #A4A5A7;
+  margin-bottom: 6px;
 }
 section#goods .good-items .good .good-heading .good-info .radio-items {
   text-align: right;
