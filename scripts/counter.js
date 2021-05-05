@@ -41,8 +41,10 @@ $('.good-buy-btn-quantity-wrapper .good-buy-quantity').click(function() {
         .children('.good-tick-active')
         .css('display', 'none')
 
-      $('section#good-overlay-wrapper')
-        .css('display', 'none');
+      if ($('section#goods .good.active').length === 0) {
+        $('section#good-overlay-wrapper')
+          .css('display', 'none');
+      }
     }
   } else {
     valueItem.html(addItem ? value + 1 : value - 1);
