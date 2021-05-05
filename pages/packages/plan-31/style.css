@@ -142,6 +142,7 @@ section#frame-radio .frame-item .content label .middle {
   line-height: 24px;
 }
 section#frame-radio .frame-item .content label .bottom {
+  color: #000;
   font-weight: normal;
   font-size: 12px;
   line-height: 24px;

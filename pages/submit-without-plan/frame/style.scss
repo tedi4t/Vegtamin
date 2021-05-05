@@ -73,8 +73,8 @@ section#frame-items-section {
 
     .frame-items-header {
       display: grid;
-      grid-template-columns: 11fr 10fr 10fr;
-      grid-gap: 3.5%;
+      grid-template-columns: 9fr 13fr 9fr;
+      grid-gap: 6px;
       text-align: center;
       color: $gray;
       font-size: 12px;
@@ -90,8 +90,8 @@ section#frame-items-section {
       .frame-item {
         margin-top: 35px;
         display: grid;
-        grid-template-columns: 11fr 10fr 10fr;
-        grid-gap: 3.5%;
+        grid-template-columns: 9fr 13fr 9fr;
+        grid-gap: 6px;
         position: relative;
 
         img.trash {

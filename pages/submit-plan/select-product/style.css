@@ -161,12 +161,13 @@ section#goods .good-items .good .good-heading .good-photo img {
   max-width: 150px;
 }
 section#goods .good-items .good .good-buy {
+  margin-top: 10px;
   width: 68%;
   display: flex;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-wrapper {
-  flex-basis: 50%;
-  max-width: 50%;
+  flex-basis: 60%;
+  max-width: 60%;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-wrapper button.good-buy-btn {
   padding: 9px 11px 11px 13px;
@@ -175,8 +176,8 @@ section#goods .good-items .good .good-buy .good-buy-btn-wrapper button.good-buy-
   border-width: 0;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper {
-  flex-basis: 50%;
-  max-width: 50%;
+  flex-basis: 60%;
+  max-width: 60%;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper button.good-buy-quantity {
   display: inline-block;
@@ -210,8 +211,8 @@ section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-b
   opacity: 0.4;
 }
 section#goods .good-items .good .good-buy .good-buy-info {
-  flex-basis: 50%;
-  max-width: 50%;
+  flex-basis: 40%;
+  max-width: 40%;
 }
 section#goods .good-items .good .good-buy .good-buy-info .good-name {
   font-size: 12px;

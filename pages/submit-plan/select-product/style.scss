@@ -195,12 +195,13 @@ section#goods {
       }
 
       .good-buy {
+        margin-top: 10px;
         width: 68%;
         display: flex;
 
         .good-buy-btn-wrapper {
-          flex-basis: 50%;
-          max-width: 50%;
+          flex-basis: 60%;
+          max-width: 60%;
 
           button.good-buy-btn {
             padding: 9px 11px 11px 13px;
@@ -211,8 +212,8 @@ section#goods {
         }
 
         .good-buy-btn-quantity-wrapper {
-          flex-basis: 50%;
-          max-width: 50%;
+          flex-basis: 60%;
+          max-width: 60%;
 
           button.good-buy-quantity {
             display: inline-block;
@@ -252,8 +253,8 @@ section#goods {
         }
 
         .good-buy-info {
-          flex-basis: 50%;
-          max-width: 50%;
+          flex-basis: 40%;
+          max-width: 40%;
 
           .good-name {
             font-size: 12px;

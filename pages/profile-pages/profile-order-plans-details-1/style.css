@@ -217,8 +217,8 @@ section#frame-items-section .frame-items .frame-items-title h3 img.dot {
 }
 section#frame-items-section .frame-items .frame-items-header {
   display: grid;
-  grid-template-columns: 11fr 10fr 10fr;
-  grid-gap: 3.5%;
+  grid-template-columns: 9fr 13fr 9fr;
+  grid-gap: 6px;
   text-align: center;
   color: #7B7B7B;
   font-size: 12px;
@@ -236,8 +236,8 @@ section#frame-items-section .frame-items .frame-items-main {
 section#frame-items-section .frame-items .frame-items-main .frame-item {
   margin-top: 35px;
   display: grid;
-  grid-template-columns: 11fr 10fr 10fr;
-  grid-gap: 3.5%;
+  grid-template-columns: 9fr 13fr 9fr;
+  grid-gap: 6px;
   position: relative;
 }
 section#frame-items-section .frame-items .frame-items-main .frame-item img.trash {
@@ -536,8 +536,8 @@ section#overlays .delete-confirmation .buttons {
   flex-wrap: wrap;
 }
 section#overlays .delete-confirmation .buttons button.success {
-  flex-basis: 65%;
-  max-width: 65%;
+  flex-basis: 60%;
+  max-width: 60%;
   background: #71B83E;
   border-radius: 14px;
   text-align: center;
@@ -615,8 +615,8 @@ section#overlays .edit-frequency .buttons {
   flex-wrap: wrap;
 }
 section#overlays .edit-frequency .buttons button.success {
-  flex-basis: 65%;
-  max-width: 65%;
+  flex-basis: 60%;
+  max-width: 60%;
   background: #71B83E;
   border-radius: 14px;
   text-align: center;

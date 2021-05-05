@@ -56,8 +56,8 @@ section#frame-items-section .frame-items .frame-items-title h3 {
 }
 section#frame-items-section .frame-items .frame-items-header {
   display: grid;
-  grid-template-columns: 11fr 10fr 10fr;
-  grid-gap: 3.5%;
+  grid-template-columns: 9fr 13fr 9fr;
+  grid-gap: 6px;
   text-align: center;
   color: #7B7B7B;
   font-size: 12px;
@@ -72,8 +72,8 @@ section#frame-items-section .frame-items .frame-items-main {
 section#frame-items-section .frame-items .frame-items-main .frame-item {
   margin-top: 35px;
   display: grid;
-  grid-template-columns: 11fr 10fr 10fr;
-  grid-gap: 3.5%;
+  grid-template-columns: 9fr 13fr 9fr;
+  grid-gap: 6px;
   position: relative;
 }
 section#frame-items-section .frame-items .frame-items-main .frame-item img.trash {
@@ -242,6 +242,7 @@ section#frame-radio .frame-item .content label .middle {
   line-height: 24px;
 }
 section#frame-radio .frame-item .content label .bottom {
+  color: #000;
   font-weight: normal;
   font-size: 12px;
   line-height: 24px;
@@ -283,7 +284,7 @@ section#frame-radio .frame-add-item .text {
 
 section#frame-btn-wrapper {
   padding: 30px 14px 25px 14px;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;
