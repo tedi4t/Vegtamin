@@ -21,7 +21,7 @@ $('button.good-buy-btn').click(function() {
     .parent('.good-buy-btn-wrapper')
     .parent()
     .children('.good-buy-btn-quantity-wrapper')
-    .css('display', 'block');
+    .css('display', 'flex');
 
   $(this)
     .parent()
