@@ -96,6 +96,8 @@ section#goods .good-items .good .good-buy .good-buy-btn-wrapper button.good-buy-
 section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper {
   flex-basis: 50%;
   max-width: 50%;
+  align-items: center;
+  justify-content: center;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper button.good-buy-quantity {
   display: inline-block;

@@ -66,7 +66,7 @@ $('section#good-overlay-section button.good-buy-btn').click(function() {
   $(activePackage)
     .children('.good-buy')
     .children('.good-buy-btn-quantity-wrapper')
-    .css('display', 'block')
+    .css('display', 'flex')
 
   $('section#date-btn-wrapper').css('display', 'none');
   $('section#good-overlay-wrapper').css('display', 'block');

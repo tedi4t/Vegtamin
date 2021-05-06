@@ -118,6 +118,8 @@ section#goods {
         .good-buy-btn-quantity-wrapper {
           flex-basis: 50%;
           max-width: 50%;
+          align-items: center;
+          justify-content: center;
 
           button.good-buy-quantity {
             display: inline-block;

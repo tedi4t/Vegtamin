@@ -53,29 +53,19 @@ section#frequency .frequency-radio-group .frequency-radio-item {
 section#frequency .frequency-radio-group .frequency-radio-item label {
   margin-right: 35px;
 }
-
-section#button-down {
-  margin-top: 50px;
-  padding: 30px 14px 25px 14px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: #fff;
-}
-section#button-down button.frequency-btn {
+section#frequency button.frequency-btn {
   cursor: pointer;
+  margin-top: 50px;
   width: 100%;
   background: #71B83E;
   border-radius: 16px;
   padding: 26px 16px;
   border-width: 0px;
 }
-section#button-down button.frequency-btn img {
+section#frequency button.frequency-btn img {
   float: left;
 }
-section#button-down button.frequency-btn .btn-text {
+section#frequency button.frequency-btn .btn-text {
   font-size: 16px;
   line-height: 18px;
   text-align: center;
