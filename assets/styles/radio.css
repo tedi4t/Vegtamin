@@ -23,7 +23,7 @@
   border-radius: 20px;
 }
 .radio-item input[type=radio] {
-  visibility: hidden;
+  display: none;
 }
 .radio-item input[type=radio].radio-lg + label::after {
   width: 22px;

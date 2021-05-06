@@ -77,8 +77,8 @@ section#goods .good-items .good .good-buy {
   display: flex;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-wrapper {
-  flex-basis: 50%;
-  max-width: 50%;
+  flex-basis: 60%;
+  max-width: 60%;
   display: flex;
   align-items: center;
 }
@@ -94,8 +94,8 @@ section#goods .good-items .good .good-buy .good-buy-btn-wrapper button.good-buy-
   border-width: 0;
 }
 section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper {
-  flex-basis: 50%;
-  max-width: 50%;
+  flex-basis: 60%;
+  max-width: 60%;
   align-items: center;
   justify-content: center;
 }
@@ -131,8 +131,8 @@ section#goods .good-items .good .good-buy .good-buy-btn-quantity-wrapper .good-b
   opacity: 0.4;
 }
 section#goods .good-items .good .good-buy .good-buy-info {
-  flex-basis: 50%;
-  max-width: 50%;
+  flex-basis: 40%;
+  max-width: 40%;
 }
 section#goods .good-items .good .good-buy .good-buy-info .good-name {
   font-size: 12px;

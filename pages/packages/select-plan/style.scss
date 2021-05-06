@@ -96,8 +96,8 @@ section#goods {
         display: flex;
 
         .good-buy-btn-wrapper {
-          flex-basis: 50%;
-          max-width: 50%;
+          flex-basis: 60%;
+          max-width: 60%;
           display: flex;
           align-items: center;
 
@@ -116,8 +116,8 @@ section#goods {
         }
 
         .good-buy-btn-quantity-wrapper {
-          flex-basis: 50%;
-          max-width: 50%;
+          flex-basis: 60%;
+          max-width: 60%;
           align-items: center;
           justify-content: center;
 
@@ -159,8 +159,8 @@ section#goods {
         }
 
         .good-buy-info {
-          flex-basis: 50%;
-          max-width: 50%;
+          flex-basis: 40%;
+          max-width: 40%;
 
           .good-name {
             font-size: 12px;

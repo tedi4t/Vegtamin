@@ -30,7 +30,8 @@ $green: #71B83E;
   }
 
   input[type=radio] {
-    visibility: hidden;
+    // visibility: hidden;
+    display: none;
   }
 
   input[type=radio].radio-lg + label::after {
