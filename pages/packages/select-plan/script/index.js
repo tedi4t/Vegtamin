@@ -53,6 +53,8 @@ $('section#goods .good .good-buy-btn').click(function() {
 // hide
 $('section#good-overlay-section .good-overlay img.close-btn, section#good-overlay-section .good-overlay-bg').click(function() {
   hideGoodOverlay();
+  $('section#good-overlay-section .good-btn-quantity-value .value')
+    .html('1');
 })
 
 // add active
