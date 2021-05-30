@@ -6,6 +6,10 @@ footer {
   display: flex;
   margin-top: 120px;
 
+  .container {
+    display: flex;
+  }
+
   .footer-left {
     flex-basis: 50%;
     max-width: 50%;

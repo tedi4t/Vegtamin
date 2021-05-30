@@ -4,6 +4,9 @@ footer {
   display: flex;
   margin-top: 120px;
 }
+footer .container {
+  display: flex;
+}
 footer .footer-left {
   flex-basis: 50%;
   max-width: 50%;

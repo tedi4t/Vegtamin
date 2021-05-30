@@ -15,6 +15,11 @@ $('#selectors .selector').click(function() {
 })
 
 $('.left-tick-carousel').click(function() {
+  console.log(this);
+  $(this).attr("disabled", true);
+  setTimeout(() => {
+    $(this).attr("disabled", false);
+  }, 600)
   const goodsBlock = $(this)
     .parent()
     .children('.goods-block');
@@ -34,6 +39,11 @@ $('.left-tick-carousel').click(function() {
 })
 
 $('.right-tick-carousel').click(function() {
+  console.log(this);
+  $(this).attr("disabled", true);
+  setTimeout(() => {
+    $(this).attr("disabled", false);
+  }, 600)
   const goodsBlock = $(this)
     .parent()
     .children('.goods-block');
